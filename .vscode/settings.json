@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "mimified.css": "plaintext",
+        "*.min.css": "plaintext"
+    }
+}
