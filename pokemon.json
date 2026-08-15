@@ -9,8 +9,8 @@
             "label": "Bosque"
         },
         {
-            "id": "orilla",
-            "label": "Orilla"
+            "id": "aguadulce",
+            "label": "Agua dulce"
         },
         {
             "id": "mar",
@@ -25,8 +25,8 @@
             "label": "Montaña"
         },
         {
-            "id": "aspero",
-            "label": "Áspero"
+            "id": "campo",
+            "label": "Campo"
         },
         {
             "id": "urbano",
@@ -99,21 +99,21 @@
         {
             "id": 7,
             "name": "Squirtle",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "squirtle"
         },
         {
             "id": 8,
             "name": "Wartortle",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "wartortle"
         },
         {
             "id": 9,
             "name": "Blastoise",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "blastoise"
         },
@@ -197,14 +197,14 @@
         {
             "id": 21,
             "name": "Spearow",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "spearow"
         },
         {
             "id": 22,
             "name": "Fearow",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "fearow"
         },
@@ -428,14 +428,14 @@
         {
             "id": 54,
             "name": "Psyduck",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "psyduck"
         },
         {
             "id": 55,
             "name": "Golduck",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "golduck"
         },
@@ -470,21 +470,21 @@
         {
             "id": 60,
             "name": "Poliwag",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "poliwag"
         },
         {
             "id": 61,
             "name": "Poliwhirl",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "poliwhirl"
         },
         {
             "id": 62,
             "name": "Poliwrath",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "poliwrath"
         },
@@ -603,28 +603,28 @@
         {
             "id": 79,
             "name": "Slowpoke",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "slowpoke"
         },
         {
             "id": 80,
             "name": "Slowbro",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "slowbro"
         },
         {
             "id": 81,
             "name": "Magnemite",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "magnemite"
         },
         {
             "id": 82,
             "name": "Magneton",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "magneton"
         },
@@ -736,14 +736,14 @@
         {
             "id": 98,
             "name": "Krabby",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "krabby"
         },
         {
             "id": 99,
             "name": "Kingler",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "kingler"
         },
@@ -827,14 +827,14 @@
         {
             "id": 111,
             "name": "Rhyhorn",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "rhyhorn"
         },
         {
             "id": 112,
             "name": "Rhydon",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "rhydon"
         },
@@ -876,14 +876,14 @@
         {
             "id": 118,
             "name": "Goldeen",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "goldeen"
         },
         {
             "id": 119,
             "name": "Seaking",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "seaking"
         },
@@ -953,14 +953,14 @@
         {
             "id": 129,
             "name": "Magikarp",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "magikarp"
         },
         {
             "id": 130,
             "name": "Gyarados",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "gyarados"
         },
@@ -1058,21 +1058,21 @@
         {
             "id": 147,
             "name": "Dratini",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "dratini"
         },
         {
             "id": 148,
             "name": "Dragonair",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "dragonair"
         },
         {
             "id": 149,
             "name": "Dragonite",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "dragonite"
         },
@@ -1121,21 +1121,21 @@
         {
             "id": 158,
             "name": "Totodile",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "totodile"
         },
         {
             "id": 159,
             "name": "Croconaw",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "croconaw"
         },
         {
             "id": 160,
             "name": "Feraligatr",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "feraligatr"
         },
@@ -1296,14 +1296,14 @@
         {
             "id": 183,
             "name": "Marill",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "marill"
         },
         {
             "id": 184,
             "name": "Azumarill",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "azumarill"
         },
@@ -1317,7 +1317,7 @@
         {
             "id": 186,
             "name": "Politoed",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "politoed"
         },
@@ -1408,7 +1408,7 @@
         {
             "id": 199,
             "name": "Slowking",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "slowking"
         },
@@ -1604,21 +1604,21 @@
         {
             "id": 227,
             "name": "Skarmory",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "unica",
             "sprite": "skarmory"
         },
         {
             "id": 228,
             "name": "Houndour",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "houndour"
         },
         {
             "id": 229,
             "name": "Houndoom",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "houndoom"
         },
@@ -1632,14 +1632,14 @@
         {
             "id": 231,
             "name": "Phanpy",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "phanpy"
         },
         {
             "id": 232,
             "name": "Donphan",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "donphan"
         },
@@ -2059,7 +2059,7 @@
         {
             "id": 298,
             "name": "Azurill",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "azurill"
         },
@@ -2360,14 +2360,14 @@
         {
             "id": 341,
             "name": "Corphish",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "corphish"
         },
         {
             "id": 342,
             "name": "Crawdaunt",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "crawdaunt"
         },
@@ -2402,28 +2402,28 @@
         {
             "id": 347,
             "name": "Anorith",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "anorith"
         },
         {
             "id": 348,
             "name": "Armaldo",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "armaldo"
         },
         {
             "id": 349,
             "name": "Feebas",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "feebas"
         },
         {
             "id": 350,
             "name": "Milotic",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "milotic"
         },
@@ -2570,42 +2570,42 @@
         {
             "id": 371,
             "name": "Bagon",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "bagon"
         },
         {
             "id": 372,
             "name": "Shelgon",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "shelgon"
         },
         {
             "id": 373,
             "name": "Salamence",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "dos",
             "sprite": "salamence"
         },
         {
             "id": 374,
             "name": "Beldum",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "beldum"
         },
         {
             "id": 375,
             "name": "Metang",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "metang"
         },
         {
             "id": 376,
             "name": "Metagross",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "dos",
             "sprite": "metagross"
         },
@@ -2696,14 +2696,14 @@
         {
             "id": 399,
             "name": "Bidoof",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "bidoof"
         },
         {
             "id": 400,
             "name": "Bibarel",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "bibarel"
         },
@@ -2724,21 +2724,21 @@
         {
             "id": 403,
             "name": "Shinx",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "shinx"
         },
         {
             "id": 404,
             "name": "Luxio",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "luxio"
         },
         {
             "id": 405,
             "name": "Luxray",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "dos",
             "sprite": "luxray"
         },
@@ -2857,14 +2857,14 @@
         {
             "id": 422,
             "name": "Shellos",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "shellos"
         },
         {
             "id": 423,
             "name": "Gastrodon",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "gastrodon"
         },
@@ -3137,7 +3137,7 @@
         {
             "id": 462,
             "name": "Magnezone",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "dos",
             "sprite": "magnezone"
         },
@@ -3151,7 +3151,7 @@
         {
             "id": 464,
             "name": "Rhyperior",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "dos",
             "sprite": "rhyperior"
         },
@@ -3648,7 +3648,7 @@
         {
             "id": 550,
             "name": "Basculin",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "basculin"
         },
@@ -3858,14 +3858,14 @@
         {
             "id": 580,
             "name": "Ducklett",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "ducklett"
         },
         {
             "id": 581,
             "name": "Swanna",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "swanna"
         },
@@ -4110,14 +4110,14 @@
         {
             "id": 616,
             "name": "Shelmet",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "shelmet"
         },
         {
             "id": 617,
             "name": "Accelgor",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "accelgor"
         },
@@ -4306,21 +4306,21 @@
         {
             "id": 656,
             "name": "Froakie",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "froakie"
         },
         {
             "id": 657,
             "name": "Frogadier",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "frogadier"
         },
         {
             "id": 658,
             "name": "Greninja",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "greninja"
         },
@@ -4341,21 +4341,21 @@
         {
             "id": 661,
             "name": "Fletchling",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "fletchling"
         },
         {
             "id": 662,
             "name": "Fletchinder",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "fletchinder"
         },
         {
             "id": 663,
             "name": "Talonflame",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "dos",
             "sprite": "talonflame"
         },
@@ -4383,14 +4383,14 @@
         {
             "id": 667,
             "name": "Litleo",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "litleo"
         },
         {
             "id": 668,
             "name": "Pyroar",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "pyroar"
         },
@@ -4516,28 +4516,28 @@
         {
             "id": 686,
             "name": "Inkay",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "inkay"
         },
         {
             "id": 687,
             "name": "Malamar",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "malamar"
         },
         {
             "id": 688,
             "name": "Binacle",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "binacle"
         },
         {
             "id": 689,
             "name": "Barbaracle",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "barbaracle"
         },
@@ -4768,21 +4768,21 @@
         {
             "id": 728,
             "name": "Popplio",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "popplio"
         },
         {
             "id": 729,
             "name": "Brionne",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "brionne"
         },
         {
             "id": 730,
             "name": "Primarina",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "primarina"
         },
@@ -4845,14 +4845,14 @@
         {
             "id": 739,
             "name": "Crabrawler",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "crabrawler"
         },
         {
             "id": 740,
             "name": "Crabominable",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "crabominable"
         },
@@ -4915,14 +4915,14 @@
         {
             "id": 749,
             "name": "Mudbray",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "mudbray"
         },
         {
             "id": 750,
             "name": "Mudsdale",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "mudsdale"
         },
@@ -5041,28 +5041,28 @@
         {
             "id": 767,
             "name": "Wimpod",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "wimpod"
         },
         {
             "id": 768,
             "name": "Golisopod",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "golisopod"
         },
         {
             "id": 769,
             "name": "Sandygast",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "sandygast"
         },
         {
             "id": 770,
             "name": "Palossand",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "palossand"
         },
@@ -5195,21 +5195,21 @@
         {
             "id": 816,
             "name": "Sobble",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "sobble"
         },
         {
             "id": 817,
             "name": "Drizzile",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "drizzile"
         },
         {
             "id": 818,
             "name": "Inteleon",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "inteleon"
         },
@@ -5314,14 +5314,14 @@
         {
             "id": 833,
             "name": "Chewtle",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "chewtle"
         },
         {
             "id": 834,
             "name": "Drednaw",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "drednaw"
         },
@@ -5398,7 +5398,7 @@
         {
             "id": 845,
             "name": "Cramorant",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "unica",
             "sprite": "cramorant"
         },
@@ -5447,14 +5447,14 @@
         {
             "id": 852,
             "name": "Clobbopus",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "clobbopus"
         },
         {
             "id": 853,
             "name": "Grapploct",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "grapploct"
         },
@@ -5629,14 +5629,14 @@
         {
             "id": 878,
             "name": "Cufant",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "basica",
             "sprite": "cufant"
         },
         {
             "id": 879,
             "name": "Copperajah",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "uno",
             "sprite": "copperajah"
         },
@@ -5678,21 +5678,21 @@
         {
             "id": 885,
             "name": "Dreepy",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "dreepy"
         },
         {
             "id": 886,
             "name": "Drakloak",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "drakloak"
         },
         {
             "id": 887,
             "name": "Dragapult",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "dragapult"
         },
@@ -5720,7 +5720,7 @@
         {
             "id": 902,
             "name": "Basculegion",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "basculegion"
         },
@@ -5783,21 +5783,21 @@
         {
             "id": 912,
             "name": "Quaxly",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "quaxly"
         },
         {
             "id": 913,
             "name": "Quaxwell",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "quaxwell"
         },
         {
             "id": 914,
             "name": "Quaquaval",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "dos",
             "sprite": "quaquaval"
         },
@@ -5979,14 +5979,14 @@
         {
             "id": 940,
             "name": "Wattrel",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "wattrel"
         },
         {
             "id": 941,
             "name": "Kilowattrel",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "kilowattrel"
         },
@@ -6049,7 +6049,7 @@
         {
             "id": 950,
             "name": "Klawf",
-            "habitat": "aspero",
+            "habitat": "campo",
             "stage": "unica",
             "sprite": "klawf"
         },
@@ -6119,21 +6119,21 @@
         {
             "id": 960,
             "name": "Wiglett",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "basica",
             "sprite": "wiglett"
         },
         {
             "id": 961,
             "name": "Wugtrio",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "uno",
             "sprite": "wugtrio"
         },
         {
             "id": 962,
             "name": "Bombirdier",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "unica",
             "sprite": "bombirdier"
         },
@@ -6238,14 +6238,14 @@
         {
             "id": 977,
             "name": "Dondozo",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "unica",
             "sprite": "dondozo"
         },
         {
             "id": 978,
             "name": "Tatsugiri",
-            "habitat": "orilla",
+            "habitat": "aguadulce",
             "stage": "unica",
             "sprite": "tatsugiri"
         },
