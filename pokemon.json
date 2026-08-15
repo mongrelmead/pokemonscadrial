@@ -1,0 +1,6358 @@
+{
+    "habitats": [
+        {
+            "id": "pradera",
+            "label": "Pradera"
+        },
+        {
+            "id": "bosque",
+            "label": "Bosque"
+        },
+        {
+            "id": "orilla",
+            "label": "Orilla"
+        },
+        {
+            "id": "mar",
+            "label": "Mar"
+        },
+        {
+            "id": "cueva",
+            "label": "Cueva"
+        },
+        {
+            "id": "montana",
+            "label": "Montaña"
+        },
+        {
+            "id": "aspero",
+            "label": "Áspero"
+        },
+        {
+            "id": "urbano",
+            "label": "Urbano"
+        },
+        {
+            "id": "nieve",
+            "label": "Nieve"
+        },
+        {
+            "id": "desierto",
+            "label": "Desierto"
+        },
+        {
+            "id": "ruinas",
+            "label": "Ruinas"
+        },
+        {
+            "id": "pantano",
+            "label": "Pantano"
+        },
+        {
+            "id": "volcan",
+            "label": "Volcán"
+        }
+    ],
+    "pokemon": [
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "bulbasaur"
+        },
+        {
+            "id": 2,
+            "name": "Ivysaur",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "ivysaur"
+        },
+        {
+            "id": 3,
+            "name": "Venusaur",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "venusaur"
+        },
+        {
+            "id": 4,
+            "name": "Charmander",
+            "habitat": "volcan",
+            "stage": "basica",
+            "sprite": "charmander"
+        },
+        {
+            "id": 5,
+            "name": "Charmeleon",
+            "habitat": "volcan",
+            "stage": "uno",
+            "sprite": "charmeleon"
+        },
+        {
+            "id": 6,
+            "name": "Charizard",
+            "habitat": "volcan",
+            "stage": "dos",
+            "sprite": "charizard"
+        },
+        {
+            "id": 7,
+            "name": "Squirtle",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "squirtle"
+        },
+        {
+            "id": 8,
+            "name": "Wartortle",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "wartortle"
+        },
+        {
+            "id": 9,
+            "name": "Blastoise",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "blastoise"
+        },
+        {
+            "id": 10,
+            "name": "Caterpie",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "caterpie"
+        },
+        {
+            "id": 11,
+            "name": "Metapod",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "metapod"
+        },
+        {
+            "id": 12,
+            "name": "Butterfree",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "butterfree"
+        },
+        {
+            "id": 13,
+            "name": "Weedle",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "weedle"
+        },
+        {
+            "id": 14,
+            "name": "Kakuna",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "kakuna"
+        },
+        {
+            "id": 15,
+            "name": "Beedrill",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "beedrill"
+        },
+        {
+            "id": 16,
+            "name": "Pidgey",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "pidgey"
+        },
+        {
+            "id": 17,
+            "name": "Pidgeotto",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "pidgeotto"
+        },
+        {
+            "id": 18,
+            "name": "Pidgeot",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "pidgeot"
+        },
+        {
+            "id": 19,
+            "name": "Rattata",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "rattata"
+        },
+        {
+            "id": 20,
+            "name": "Raticate",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "raticate"
+        },
+        {
+            "id": 21,
+            "name": "Spearow",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "spearow"
+        },
+        {
+            "id": 22,
+            "name": "Fearow",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "fearow"
+        },
+        {
+            "id": 23,
+            "name": "Ekans",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "ekans"
+        },
+        {
+            "id": 24,
+            "name": "Arbok",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "arbok"
+        },
+        {
+            "id": 25,
+            "name": "Pikachu",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "pikachu"
+        },
+        {
+            "id": 26,
+            "name": "Raichu",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "raichu"
+        },
+        {
+            "id": 27,
+            "name": "Sandshrew",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "sandshrew"
+        },
+        {
+            "id": 28,
+            "name": "Sandslash",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "sandslash"
+        },
+        {
+            "id": 29,
+            "name": "Nidoran♀",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "nidoranf"
+        },
+        {
+            "id": 30,
+            "name": "Nidorina",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "nidorina"
+        },
+        {
+            "id": 31,
+            "name": "Nidoqueen",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "nidoqueen"
+        },
+        {
+            "id": 32,
+            "name": "Nidoran♂",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "nidoranm"
+        },
+        {
+            "id": 33,
+            "name": "Nidorino",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "nidorino"
+        },
+        {
+            "id": 34,
+            "name": "Nidoking",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "nidoking"
+        },
+        {
+            "id": 35,
+            "name": "Clefairy",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "clefairy"
+        },
+        {
+            "id": 36,
+            "name": "Clefable",
+            "habitat": "montana",
+            "stage": "dos",
+            "sprite": "clefable"
+        },
+        {
+            "id": 37,
+            "name": "Vulpix",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "vulpix"
+        },
+        {
+            "id": 38,
+            "name": "Ninetales",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "ninetales"
+        },
+        {
+            "id": 39,
+            "name": "Jigglypuff",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "jigglypuff"
+        },
+        {
+            "id": 40,
+            "name": "Wigglytuff",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "wigglytuff"
+        },
+        {
+            "id": 41,
+            "name": "Zubat",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "zubat"
+        },
+        {
+            "id": 42,
+            "name": "Golbat",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "golbat"
+        },
+        {
+            "id": 43,
+            "name": "Oddish",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "oddish"
+        },
+        {
+            "id": 44,
+            "name": "Gloom",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "gloom"
+        },
+        {
+            "id": 45,
+            "name": "Vileplume",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "vileplume"
+        },
+        {
+            "id": 46,
+            "name": "Paras",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "paras"
+        },
+        {
+            "id": 47,
+            "name": "Parasect",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "parasect"
+        },
+        {
+            "id": 48,
+            "name": "Venonat",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "venonat"
+        },
+        {
+            "id": 49,
+            "name": "Venomoth",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "venomoth"
+        },
+        {
+            "id": 50,
+            "name": "Diglett",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "diglett"
+        },
+        {
+            "id": 51,
+            "name": "Dugtrio",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "dugtrio"
+        },
+        {
+            "id": 52,
+            "name": "Meowth",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "meowth"
+        },
+        {
+            "id": 53,
+            "name": "Persian",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "persian"
+        },
+        {
+            "id": 54,
+            "name": "Psyduck",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "psyduck"
+        },
+        {
+            "id": 55,
+            "name": "Golduck",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "golduck"
+        },
+        {
+            "id": 56,
+            "name": "Mankey",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "mankey"
+        },
+        {
+            "id": 57,
+            "name": "Primeape",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "primeape"
+        },
+        {
+            "id": 58,
+            "name": "Growlithe",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "growlithe"
+        },
+        {
+            "id": 59,
+            "name": "Arcanine",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "arcanine"
+        },
+        {
+            "id": 60,
+            "name": "Poliwag",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "poliwag"
+        },
+        {
+            "id": 61,
+            "name": "Poliwhirl",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "poliwhirl"
+        },
+        {
+            "id": 62,
+            "name": "Poliwrath",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "poliwrath"
+        },
+        {
+            "id": 63,
+            "name": "Abra",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "abra"
+        },
+        {
+            "id": 64,
+            "name": "Kadabra",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "kadabra"
+        },
+        {
+            "id": 65,
+            "name": "Alakazam",
+            "habitat": "urbano",
+            "stage": "dos",
+            "sprite": "alakazam"
+        },
+        {
+            "id": 66,
+            "name": "Machop",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "machop"
+        },
+        {
+            "id": 67,
+            "name": "Machoke",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "machoke"
+        },
+        {
+            "id": 68,
+            "name": "Machamp",
+            "habitat": "montana",
+            "stage": "dos",
+            "sprite": "machamp"
+        },
+        {
+            "id": 69,
+            "name": "Bellsprout",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "bellsprout"
+        },
+        {
+            "id": 70,
+            "name": "Weepinbell",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "weepinbell"
+        },
+        {
+            "id": 71,
+            "name": "Victreebel",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "victreebel"
+        },
+        {
+            "id": 72,
+            "name": "Tentacool",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "tentacool"
+        },
+        {
+            "id": 73,
+            "name": "Tentacruel",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "tentacruel"
+        },
+        {
+            "id": 74,
+            "name": "Geodude",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "geodude"
+        },
+        {
+            "id": 75,
+            "name": "Graveler",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "graveler"
+        },
+        {
+            "id": 76,
+            "name": "Golem",
+            "habitat": "montana",
+            "stage": "dos",
+            "sprite": "golem"
+        },
+        {
+            "id": 77,
+            "name": "Ponyta",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "ponyta"
+        },
+        {
+            "id": 78,
+            "name": "Rapidash",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "rapidash"
+        },
+        {
+            "id": 79,
+            "name": "Slowpoke",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "slowpoke"
+        },
+        {
+            "id": 80,
+            "name": "Slowbro",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "slowbro"
+        },
+        {
+            "id": 81,
+            "name": "Magnemite",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "magnemite"
+        },
+        {
+            "id": 82,
+            "name": "Magneton",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "magneton"
+        },
+        {
+            "id": 83,
+            "name": "Farfetch’d",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "farfetchd"
+        },
+        {
+            "id": 84,
+            "name": "Doduo",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "doduo"
+        },
+        {
+            "id": 85,
+            "name": "Dodrio",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "dodrio"
+        },
+        {
+            "id": 86,
+            "name": "Seel",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "seel"
+        },
+        {
+            "id": 87,
+            "name": "Dewgong",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "dewgong"
+        },
+        {
+            "id": 88,
+            "name": "Grimer",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "grimer"
+        },
+        {
+            "id": 89,
+            "name": "Muk",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "muk"
+        },
+        {
+            "id": 90,
+            "name": "Shellder",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "shellder"
+        },
+        {
+            "id": 91,
+            "name": "Cloyster",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "cloyster"
+        },
+        {
+            "id": 92,
+            "name": "Gastly",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "gastly"
+        },
+        {
+            "id": 93,
+            "name": "Haunter",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "haunter"
+        },
+        {
+            "id": 94,
+            "name": "Gengar",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "gengar"
+        },
+        {
+            "id": 95,
+            "name": "Onix",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "onix"
+        },
+        {
+            "id": 96,
+            "name": "Drowzee",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "drowzee"
+        },
+        {
+            "id": 97,
+            "name": "Hypno",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "hypno"
+        },
+        {
+            "id": 98,
+            "name": "Krabby",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "krabby"
+        },
+        {
+            "id": 99,
+            "name": "Kingler",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "kingler"
+        },
+        {
+            "id": 100,
+            "name": "Voltorb",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "voltorb"
+        },
+        {
+            "id": 101,
+            "name": "Electrode",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "electrode"
+        },
+        {
+            "id": 102,
+            "name": "Exeggcute",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "exeggcute"
+        },
+        {
+            "id": 103,
+            "name": "Exeggutor",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "exeggutor"
+        },
+        {
+            "id": 104,
+            "name": "Cubone",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "cubone"
+        },
+        {
+            "id": 105,
+            "name": "Marowak",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "marowak"
+        },
+        {
+            "id": 106,
+            "name": "Hitmonlee",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "hitmonlee"
+        },
+        {
+            "id": 107,
+            "name": "Hitmonchan",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "hitmonchan"
+        },
+        {
+            "id": 108,
+            "name": "Lickitung",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "lickitung"
+        },
+        {
+            "id": 109,
+            "name": "Koffing",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "koffing"
+        },
+        {
+            "id": 110,
+            "name": "Weezing",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "weezing"
+        },
+        {
+            "id": 111,
+            "name": "Rhyhorn",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "rhyhorn"
+        },
+        {
+            "id": 112,
+            "name": "Rhydon",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "rhydon"
+        },
+        {
+            "id": 113,
+            "name": "Chansey",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "chansey"
+        },
+        {
+            "id": 114,
+            "name": "Tangela",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "tangela"
+        },
+        {
+            "id": 115,
+            "name": "Kangaskhan",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "kangaskhan"
+        },
+        {
+            "id": 116,
+            "name": "Horsea",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "horsea"
+        },
+        {
+            "id": 117,
+            "name": "Seadra",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "seadra"
+        },
+        {
+            "id": 118,
+            "name": "Goldeen",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "goldeen"
+        },
+        {
+            "id": 119,
+            "name": "Seaking",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "seaking"
+        },
+        {
+            "id": 120,
+            "name": "Staryu",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "staryu"
+        },
+        {
+            "id": 121,
+            "name": "Starmie",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "starmie"
+        },
+        {
+            "id": 122,
+            "name": "Mr. Mime",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "mrmime"
+        },
+        {
+            "id": 123,
+            "name": "Scyther",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "scyther"
+        },
+        {
+            "id": 124,
+            "name": "Jynx",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "jynx"
+        },
+        {
+            "id": 125,
+            "name": "Electabuzz",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "electabuzz"
+        },
+        {
+            "id": 126,
+            "name": "Magmar",
+            "habitat": "volcan",
+            "stage": "uno",
+            "sprite": "magmar"
+        },
+        {
+            "id": 127,
+            "name": "Pinsir",
+            "habitat": "bosque",
+            "stage": "unica",
+            "sprite": "pinsir"
+        },
+        {
+            "id": 128,
+            "name": "Tauros",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "tauros"
+        },
+        {
+            "id": 129,
+            "name": "Magikarp",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "magikarp"
+        },
+        {
+            "id": 130,
+            "name": "Gyarados",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "gyarados"
+        },
+        {
+            "id": 131,
+            "name": "Lapras",
+            "habitat": "mar",
+            "stage": "unica",
+            "sprite": "lapras"
+        },
+        {
+            "id": 132,
+            "name": "Ditto",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "ditto"
+        },
+        {
+            "id": 133,
+            "name": "Eevee",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "eevee"
+        },
+        {
+            "id": 134,
+            "name": "Vaporeon",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "vaporeon"
+        },
+        {
+            "id": 135,
+            "name": "Jolteon",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "jolteon"
+        },
+        {
+            "id": 136,
+            "name": "Flareon",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "flareon"
+        },
+        {
+            "id": 137,
+            "name": "Porygon",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "porygon"
+        },
+        {
+            "id": 138,
+            "name": "Omanyte",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "omanyte"
+        },
+        {
+            "id": 139,
+            "name": "Omastar",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "omastar"
+        },
+        {
+            "id": 140,
+            "name": "Kabuto",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "kabuto"
+        },
+        {
+            "id": 141,
+            "name": "Kabutops",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "kabutops"
+        },
+        {
+            "id": 142,
+            "name": "Aerodactyl",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "aerodactyl"
+        },
+        {
+            "id": 143,
+            "name": "Snorlax",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "snorlax"
+        },
+        {
+            "id": 147,
+            "name": "Dratini",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "dratini"
+        },
+        {
+            "id": 148,
+            "name": "Dragonair",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "dragonair"
+        },
+        {
+            "id": 149,
+            "name": "Dragonite",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "dragonite"
+        },
+        {
+            "id": 152,
+            "name": "Chikorita",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "chikorita"
+        },
+        {
+            "id": 153,
+            "name": "Bayleef",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "bayleef"
+        },
+        {
+            "id": 154,
+            "name": "Meganium",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "meganium"
+        },
+        {
+            "id": 155,
+            "name": "Cyndaquil",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "cyndaquil"
+        },
+        {
+            "id": 156,
+            "name": "Quilava",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "quilava"
+        },
+        {
+            "id": 157,
+            "name": "Typhlosion",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "typhlosion"
+        },
+        {
+            "id": 158,
+            "name": "Totodile",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "totodile"
+        },
+        {
+            "id": 159,
+            "name": "Croconaw",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "croconaw"
+        },
+        {
+            "id": 160,
+            "name": "Feraligatr",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "feraligatr"
+        },
+        {
+            "id": 161,
+            "name": "Sentret",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "sentret"
+        },
+        {
+            "id": 162,
+            "name": "Furret",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "furret"
+        },
+        {
+            "id": 163,
+            "name": "Hoothoot",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "hoothoot"
+        },
+        {
+            "id": 164,
+            "name": "Noctowl",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "noctowl"
+        },
+        {
+            "id": 165,
+            "name": "Ledyba",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "ledyba"
+        },
+        {
+            "id": 166,
+            "name": "Ledian",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "ledian"
+        },
+        {
+            "id": 167,
+            "name": "Spinarak",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "spinarak"
+        },
+        {
+            "id": 168,
+            "name": "Ariados",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "ariados"
+        },
+        {
+            "id": 169,
+            "name": "Crobat",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "crobat"
+        },
+        {
+            "id": 170,
+            "name": "Chinchou",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "chinchou"
+        },
+        {
+            "id": 171,
+            "name": "Lanturn",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "lanturn"
+        },
+        {
+            "id": 172,
+            "name": "Pichu",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "pichu"
+        },
+        {
+            "id": 173,
+            "name": "Cleffa",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "cleffa"
+        },
+        {
+            "id": 174,
+            "name": "Igglybuff",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "igglybuff"
+        },
+        {
+            "id": 175,
+            "name": "Togepi",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "togepi"
+        },
+        {
+            "id": 176,
+            "name": "Togetic",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "togetic"
+        },
+        {
+            "id": 177,
+            "name": "Natu",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "natu"
+        },
+        {
+            "id": 178,
+            "name": "Xatu",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "xatu"
+        },
+        {
+            "id": 179,
+            "name": "Mareep",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "mareep"
+        },
+        {
+            "id": 180,
+            "name": "Flaaffy",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "flaaffy"
+        },
+        {
+            "id": 181,
+            "name": "Ampharos",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "ampharos"
+        },
+        {
+            "id": 182,
+            "name": "Bellossom",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "bellossom"
+        },
+        {
+            "id": 183,
+            "name": "Marill",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "marill"
+        },
+        {
+            "id": 184,
+            "name": "Azumarill",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "azumarill"
+        },
+        {
+            "id": 185,
+            "name": "Sudowoodo",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "sudowoodo"
+        },
+        {
+            "id": 186,
+            "name": "Politoed",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "politoed"
+        },
+        {
+            "id": 187,
+            "name": "Hoppip",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "hoppip"
+        },
+        {
+            "id": 188,
+            "name": "Skiploom",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "skiploom"
+        },
+        {
+            "id": 189,
+            "name": "Jumpluff",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "jumpluff"
+        },
+        {
+            "id": 190,
+            "name": "Aipom",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "aipom"
+        },
+        {
+            "id": 191,
+            "name": "Sunkern",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "sunkern"
+        },
+        {
+            "id": 192,
+            "name": "Sunflora",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "sunflora"
+        },
+        {
+            "id": 193,
+            "name": "Yanma",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "yanma"
+        },
+        {
+            "id": 194,
+            "name": "Wooper",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "wooper"
+        },
+        {
+            "id": 195,
+            "name": "Quagsire",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "quagsire"
+        },
+        {
+            "id": 196,
+            "name": "Espeon",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "espeon"
+        },
+        {
+            "id": 197,
+            "name": "Umbreon",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "umbreon"
+        },
+        {
+            "id": 198,
+            "name": "Murkrow",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "murkrow"
+        },
+        {
+            "id": 199,
+            "name": "Slowking",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "slowking"
+        },
+        {
+            "id": 200,
+            "name": "Misdreavus",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "misdreavus"
+        },
+        {
+            "id": 201,
+            "name": "Unown",
+            "habitat": "ruinas",
+            "stage": "unica",
+            "sprite": "unown"
+        },
+        {
+            "id": 202,
+            "name": "Wobbuffet",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "wobbuffet"
+        },
+        {
+            "id": 203,
+            "name": "Girafarig",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "girafarig"
+        },
+        {
+            "id": 204,
+            "name": "Pineco",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "pineco"
+        },
+        {
+            "id": 205,
+            "name": "Forretress",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "forretress"
+        },
+        {
+            "id": 206,
+            "name": "Dunsparce",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "dunsparce"
+        },
+        {
+            "id": 207,
+            "name": "Gligar",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "gligar"
+        },
+        {
+            "id": 208,
+            "name": "Steelix",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "steelix"
+        },
+        {
+            "id": 209,
+            "name": "Snubbull",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "snubbull"
+        },
+        {
+            "id": 210,
+            "name": "Granbull",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "granbull"
+        },
+        {
+            "id": 211,
+            "name": "Qwilfish",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "qwilfish"
+        },
+        {
+            "id": 212,
+            "name": "Scizor",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "scizor"
+        },
+        {
+            "id": 213,
+            "name": "Shuckle",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "shuckle"
+        },
+        {
+            "id": 214,
+            "name": "Heracross",
+            "habitat": "bosque",
+            "stage": "unica",
+            "sprite": "heracross"
+        },
+        {
+            "id": 215,
+            "name": "Sneasel",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "sneasel"
+        },
+        {
+            "id": 216,
+            "name": "Teddiursa",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "teddiursa"
+        },
+        {
+            "id": 217,
+            "name": "Ursaring",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "ursaring"
+        },
+        {
+            "id": 218,
+            "name": "Slugma",
+            "habitat": "volcan",
+            "stage": "basica",
+            "sprite": "slugma"
+        },
+        {
+            "id": 219,
+            "name": "Magcargo",
+            "habitat": "volcan",
+            "stage": "uno",
+            "sprite": "magcargo"
+        },
+        {
+            "id": 220,
+            "name": "Swinub",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "swinub"
+        },
+        {
+            "id": 221,
+            "name": "Piloswine",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "piloswine"
+        },
+        {
+            "id": 222,
+            "name": "Corsola",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "corsola"
+        },
+        {
+            "id": 223,
+            "name": "Remoraid",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "remoraid"
+        },
+        {
+            "id": 224,
+            "name": "Octillery",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "octillery"
+        },
+        {
+            "id": 225,
+            "name": "Delibird",
+            "habitat": "nieve",
+            "stage": "unica",
+            "sprite": "delibird"
+        },
+        {
+            "id": 226,
+            "name": "Mantine",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "mantine"
+        },
+        {
+            "id": 227,
+            "name": "Skarmory",
+            "habitat": "aspero",
+            "stage": "unica",
+            "sprite": "skarmory"
+        },
+        {
+            "id": 228,
+            "name": "Houndour",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "houndour"
+        },
+        {
+            "id": 229,
+            "name": "Houndoom",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "houndoom"
+        },
+        {
+            "id": 230,
+            "name": "Kingdra",
+            "habitat": "mar",
+            "stage": "dos",
+            "sprite": "kingdra"
+        },
+        {
+            "id": 231,
+            "name": "Phanpy",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "phanpy"
+        },
+        {
+            "id": 232,
+            "name": "Donphan",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "donphan"
+        },
+        {
+            "id": 233,
+            "name": "Porygon2",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "porygon2"
+        },
+        {
+            "id": 234,
+            "name": "Stantler",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "stantler"
+        },
+        {
+            "id": 235,
+            "name": "Smeargle",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "smeargle"
+        },
+        {
+            "id": 236,
+            "name": "Tyrogue",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "tyrogue"
+        },
+        {
+            "id": 237,
+            "name": "Hitmontop",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "hitmontop"
+        },
+        {
+            "id": 238,
+            "name": "Smoochum",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "smoochum"
+        },
+        {
+            "id": 239,
+            "name": "Elekid",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "elekid"
+        },
+        {
+            "id": 240,
+            "name": "Magby",
+            "habitat": "volcan",
+            "stage": "basica",
+            "sprite": "magby"
+        },
+        {
+            "id": 241,
+            "name": "Miltank",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "miltank"
+        },
+        {
+            "id": 242,
+            "name": "Blissey",
+            "habitat": "urbano",
+            "stage": "dos",
+            "sprite": "blissey"
+        },
+        {
+            "id": 246,
+            "name": "Larvitar",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "larvitar"
+        },
+        {
+            "id": 247,
+            "name": "Pupitar",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "pupitar"
+        },
+        {
+            "id": 248,
+            "name": "Tyranitar",
+            "habitat": "montana",
+            "stage": "dos",
+            "sprite": "tyranitar"
+        },
+        {
+            "id": 252,
+            "name": "Treecko",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "treecko"
+        },
+        {
+            "id": 253,
+            "name": "Grovyle",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "grovyle"
+        },
+        {
+            "id": 254,
+            "name": "Sceptile",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "sceptile"
+        },
+        {
+            "id": 255,
+            "name": "Torchic",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "torchic"
+        },
+        {
+            "id": 256,
+            "name": "Combusken",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "combusken"
+        },
+        {
+            "id": 257,
+            "name": "Blaziken",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "blaziken"
+        },
+        {
+            "id": 258,
+            "name": "Mudkip",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "mudkip"
+        },
+        {
+            "id": 259,
+            "name": "Marshtomp",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "marshtomp"
+        },
+        {
+            "id": 260,
+            "name": "Swampert",
+            "habitat": "pantano",
+            "stage": "dos",
+            "sprite": "swampert"
+        },
+        {
+            "id": 261,
+            "name": "Poochyena",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "poochyena"
+        },
+        {
+            "id": 262,
+            "name": "Mightyena",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "mightyena"
+        },
+        {
+            "id": 263,
+            "name": "Zigzagoon",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "zigzagoon"
+        },
+        {
+            "id": 264,
+            "name": "Linoone",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "linoone"
+        },
+        {
+            "id": 265,
+            "name": "Wurmple",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "wurmple"
+        },
+        {
+            "id": 266,
+            "name": "Silcoon",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "silcoon"
+        },
+        {
+            "id": 267,
+            "name": "Beautifly",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "beautifly"
+        },
+        {
+            "id": 268,
+            "name": "Cascoon",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "cascoon"
+        },
+        {
+            "id": 269,
+            "name": "Dustox",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "dustox"
+        },
+        {
+            "id": 270,
+            "name": "Lotad",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "lotad"
+        },
+        {
+            "id": 271,
+            "name": "Lombre",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "lombre"
+        },
+        {
+            "id": 272,
+            "name": "Ludicolo",
+            "habitat": "pantano",
+            "stage": "dos",
+            "sprite": "ludicolo"
+        },
+        {
+            "id": 273,
+            "name": "Seedot",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "seedot"
+        },
+        {
+            "id": 274,
+            "name": "Nuzleaf",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "nuzleaf"
+        },
+        {
+            "id": 275,
+            "name": "Shiftry",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "shiftry"
+        },
+        {
+            "id": 276,
+            "name": "Taillow",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "taillow"
+        },
+        {
+            "id": 277,
+            "name": "Swellow",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "swellow"
+        },
+        {
+            "id": 278,
+            "name": "Wingull",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "wingull"
+        },
+        {
+            "id": 279,
+            "name": "Pelipper",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "pelipper"
+        },
+        {
+            "id": 280,
+            "name": "Ralts",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "ralts"
+        },
+        {
+            "id": 281,
+            "name": "Kirlia",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "kirlia"
+        },
+        {
+            "id": 282,
+            "name": "Gardevoir",
+            "habitat": "urbano",
+            "stage": "dos",
+            "sprite": "gardevoir"
+        },
+        {
+            "id": 283,
+            "name": "Surskit",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "surskit"
+        },
+        {
+            "id": 284,
+            "name": "Masquerain",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "masquerain"
+        },
+        {
+            "id": 285,
+            "name": "Shroomish",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "shroomish"
+        },
+        {
+            "id": 286,
+            "name": "Breloom",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "breloom"
+        },
+        {
+            "id": 287,
+            "name": "Slakoth",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "slakoth"
+        },
+        {
+            "id": 288,
+            "name": "Vigoroth",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "vigoroth"
+        },
+        {
+            "id": 289,
+            "name": "Slaking",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "slaking"
+        },
+        {
+            "id": 290,
+            "name": "Nincada",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "nincada"
+        },
+        {
+            "id": 291,
+            "name": "Ninjask",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "ninjask"
+        },
+        {
+            "id": 292,
+            "name": "Shedinja",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "shedinja"
+        },
+        {
+            "id": 293,
+            "name": "Whismur",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "whismur"
+        },
+        {
+            "id": 294,
+            "name": "Loudred",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "loudred"
+        },
+        {
+            "id": 295,
+            "name": "Exploud",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "exploud"
+        },
+        {
+            "id": 296,
+            "name": "Makuhita",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "makuhita"
+        },
+        {
+            "id": 297,
+            "name": "Hariyama",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "hariyama"
+        },
+        {
+            "id": 298,
+            "name": "Azurill",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "azurill"
+        },
+        {
+            "id": 299,
+            "name": "Nosepass",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "nosepass"
+        },
+        {
+            "id": 300,
+            "name": "Skitty",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "skitty"
+        },
+        {
+            "id": 301,
+            "name": "Delcatty",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "delcatty"
+        },
+        {
+            "id": 302,
+            "name": "Sableye",
+            "habitat": "cueva",
+            "stage": "unica",
+            "sprite": "sableye"
+        },
+        {
+            "id": 303,
+            "name": "Mawile",
+            "habitat": "cueva",
+            "stage": "unica",
+            "sprite": "mawile"
+        },
+        {
+            "id": 304,
+            "name": "Aron",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "aron"
+        },
+        {
+            "id": 305,
+            "name": "Lairon",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "lairon"
+        },
+        {
+            "id": 306,
+            "name": "Aggron",
+            "habitat": "montana",
+            "stage": "dos",
+            "sprite": "aggron"
+        },
+        {
+            "id": 307,
+            "name": "Meditite",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "meditite"
+        },
+        {
+            "id": 308,
+            "name": "Medicham",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "medicham"
+        },
+        {
+            "id": 309,
+            "name": "Electrike",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "electrike"
+        },
+        {
+            "id": 310,
+            "name": "Manectric",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "manectric"
+        },
+        {
+            "id": 311,
+            "name": "Plusle",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "plusle"
+        },
+        {
+            "id": 312,
+            "name": "Minun",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "minun"
+        },
+        {
+            "id": 313,
+            "name": "Volbeat",
+            "habitat": "bosque",
+            "stage": "unica",
+            "sprite": "volbeat"
+        },
+        {
+            "id": 314,
+            "name": "Illumise",
+            "habitat": "bosque",
+            "stage": "unica",
+            "sprite": "illumise"
+        },
+        {
+            "id": 315,
+            "name": "Roselia",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "roselia"
+        },
+        {
+            "id": 316,
+            "name": "Gulpin",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "gulpin"
+        },
+        {
+            "id": 317,
+            "name": "Swalot",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "swalot"
+        },
+        {
+            "id": 318,
+            "name": "Carvanha",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "carvanha"
+        },
+        {
+            "id": 319,
+            "name": "Sharpedo",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "sharpedo"
+        },
+        {
+            "id": 320,
+            "name": "Wailmer",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "wailmer"
+        },
+        {
+            "id": 321,
+            "name": "Wailord",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "wailord"
+        },
+        {
+            "id": 322,
+            "name": "Numel",
+            "habitat": "volcan",
+            "stage": "basica",
+            "sprite": "numel"
+        },
+        {
+            "id": 323,
+            "name": "Camerupt",
+            "habitat": "volcan",
+            "stage": "uno",
+            "sprite": "camerupt"
+        },
+        {
+            "id": 324,
+            "name": "Torkoal",
+            "habitat": "volcan",
+            "stage": "unica",
+            "sprite": "torkoal"
+        },
+        {
+            "id": 325,
+            "name": "Spoink",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "spoink"
+        },
+        {
+            "id": 326,
+            "name": "Grumpig",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "grumpig"
+        },
+        {
+            "id": 327,
+            "name": "Spinda",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "spinda"
+        },
+        {
+            "id": 328,
+            "name": "Trapinch",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "trapinch"
+        },
+        {
+            "id": 329,
+            "name": "Vibrava",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "vibrava"
+        },
+        {
+            "id": 330,
+            "name": "Flygon",
+            "habitat": "desierto",
+            "stage": "dos",
+            "sprite": "flygon"
+        },
+        {
+            "id": 331,
+            "name": "Cacnea",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "cacnea"
+        },
+        {
+            "id": 332,
+            "name": "Cacturne",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "cacturne"
+        },
+        {
+            "id": 333,
+            "name": "Swablu",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "swablu"
+        },
+        {
+            "id": 334,
+            "name": "Altaria",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "altaria"
+        },
+        {
+            "id": 335,
+            "name": "Zangoose",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "zangoose"
+        },
+        {
+            "id": 336,
+            "name": "Seviper",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "seviper"
+        },
+        {
+            "id": 337,
+            "name": "Lunatone",
+            "habitat": "ruinas",
+            "stage": "unica",
+            "sprite": "lunatone"
+        },
+        {
+            "id": 338,
+            "name": "Solrock",
+            "habitat": "ruinas",
+            "stage": "unica",
+            "sprite": "solrock"
+        },
+        {
+            "id": 339,
+            "name": "Barboach",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "barboach"
+        },
+        {
+            "id": 340,
+            "name": "Whiscash",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "whiscash"
+        },
+        {
+            "id": 341,
+            "name": "Corphish",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "corphish"
+        },
+        {
+            "id": 342,
+            "name": "Crawdaunt",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "crawdaunt"
+        },
+        {
+            "id": 343,
+            "name": "Baltoy",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "baltoy"
+        },
+        {
+            "id": 344,
+            "name": "Claydol",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "claydol"
+        },
+        {
+            "id": 345,
+            "name": "Lileep",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "lileep"
+        },
+        {
+            "id": 346,
+            "name": "Cradily",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "cradily"
+        },
+        {
+            "id": 347,
+            "name": "Anorith",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "anorith"
+        },
+        {
+            "id": 348,
+            "name": "Armaldo",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "armaldo"
+        },
+        {
+            "id": 349,
+            "name": "Feebas",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "feebas"
+        },
+        {
+            "id": 350,
+            "name": "Milotic",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "milotic"
+        },
+        {
+            "id": 351,
+            "name": "Castform",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "castform"
+        },
+        {
+            "id": 352,
+            "name": "Kecleon",
+            "habitat": "bosque",
+            "stage": "unica",
+            "sprite": "kecleon"
+        },
+        {
+            "id": 353,
+            "name": "Shuppet",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "shuppet"
+        },
+        {
+            "id": 354,
+            "name": "Banette",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "banette"
+        },
+        {
+            "id": 355,
+            "name": "Duskull",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "duskull"
+        },
+        {
+            "id": 356,
+            "name": "Dusclops",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "dusclops"
+        },
+        {
+            "id": 357,
+            "name": "Tropius",
+            "habitat": "bosque",
+            "stage": "unica",
+            "sprite": "tropius"
+        },
+        {
+            "id": 358,
+            "name": "Chimecho",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "chimecho"
+        },
+        {
+            "id": 359,
+            "name": "Absol",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "absol"
+        },
+        {
+            "id": 360,
+            "name": "Wynaut",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "wynaut"
+        },
+        {
+            "id": 361,
+            "name": "Snorunt",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "snorunt"
+        },
+        {
+            "id": 362,
+            "name": "Glalie",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "glalie"
+        },
+        {
+            "id": 363,
+            "name": "Spheal",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "spheal"
+        },
+        {
+            "id": 364,
+            "name": "Sealeo",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "sealeo"
+        },
+        {
+            "id": 365,
+            "name": "Walrein",
+            "habitat": "nieve",
+            "stage": "dos",
+            "sprite": "walrein"
+        },
+        {
+            "id": 366,
+            "name": "Clamperl",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "clamperl"
+        },
+        {
+            "id": 367,
+            "name": "Huntail",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "huntail"
+        },
+        {
+            "id": 368,
+            "name": "Gorebyss",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "gorebyss"
+        },
+        {
+            "id": 369,
+            "name": "Relicanth",
+            "habitat": "mar",
+            "stage": "unica",
+            "sprite": "relicanth"
+        },
+        {
+            "id": 370,
+            "name": "Luvdisc",
+            "habitat": "mar",
+            "stage": "unica",
+            "sprite": "luvdisc"
+        },
+        {
+            "id": 371,
+            "name": "Bagon",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "bagon"
+        },
+        {
+            "id": 372,
+            "name": "Shelgon",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "shelgon"
+        },
+        {
+            "id": 373,
+            "name": "Salamence",
+            "habitat": "aspero",
+            "stage": "dos",
+            "sprite": "salamence"
+        },
+        {
+            "id": 374,
+            "name": "Beldum",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "beldum"
+        },
+        {
+            "id": 375,
+            "name": "Metang",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "metang"
+        },
+        {
+            "id": 376,
+            "name": "Metagross",
+            "habitat": "aspero",
+            "stage": "dos",
+            "sprite": "metagross"
+        },
+        {
+            "id": 387,
+            "name": "Turtwig",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "turtwig"
+        },
+        {
+            "id": 388,
+            "name": "Grotle",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "grotle"
+        },
+        {
+            "id": 389,
+            "name": "Torterra",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "torterra"
+        },
+        {
+            "id": 390,
+            "name": "Chimchar",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "chimchar"
+        },
+        {
+            "id": 391,
+            "name": "Monferno",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "monferno"
+        },
+        {
+            "id": 392,
+            "name": "Infernape",
+            "habitat": "montana",
+            "stage": "dos",
+            "sprite": "infernape"
+        },
+        {
+            "id": 393,
+            "name": "Piplup",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "piplup"
+        },
+        {
+            "id": 394,
+            "name": "Prinplup",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "prinplup"
+        },
+        {
+            "id": 395,
+            "name": "Empoleon",
+            "habitat": "mar",
+            "stage": "dos",
+            "sprite": "empoleon"
+        },
+        {
+            "id": 396,
+            "name": "Starly",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "starly"
+        },
+        {
+            "id": 397,
+            "name": "Staravia",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "staravia"
+        },
+        {
+            "id": 398,
+            "name": "Staraptor",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "staraptor"
+        },
+        {
+            "id": 399,
+            "name": "Bidoof",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "bidoof"
+        },
+        {
+            "id": 400,
+            "name": "Bibarel",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "bibarel"
+        },
+        {
+            "id": 401,
+            "name": "Kricketot",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "kricketot"
+        },
+        {
+            "id": 402,
+            "name": "Kricketune",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "kricketune"
+        },
+        {
+            "id": 403,
+            "name": "Shinx",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "shinx"
+        },
+        {
+            "id": 404,
+            "name": "Luxio",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "luxio"
+        },
+        {
+            "id": 405,
+            "name": "Luxray",
+            "habitat": "aspero",
+            "stage": "dos",
+            "sprite": "luxray"
+        },
+        {
+            "id": 406,
+            "name": "Budew",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "budew"
+        },
+        {
+            "id": 407,
+            "name": "Roserade",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "roserade"
+        },
+        {
+            "id": 408,
+            "name": "Cranidos",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "cranidos"
+        },
+        {
+            "id": 409,
+            "name": "Rampardos",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "rampardos"
+        },
+        {
+            "id": 410,
+            "name": "Shieldon",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "shieldon"
+        },
+        {
+            "id": 411,
+            "name": "Bastiodon",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "bastiodon"
+        },
+        {
+            "id": 412,
+            "name": "Burmy",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "burmy"
+        },
+        {
+            "id": 413,
+            "name": "Wormadam",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "wormadam"
+        },
+        {
+            "id": 414,
+            "name": "Mothim",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "mothim"
+        },
+        {
+            "id": 415,
+            "name": "Combee",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "combee"
+        },
+        {
+            "id": 416,
+            "name": "Vespiquen",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "vespiquen"
+        },
+        {
+            "id": 417,
+            "name": "Pachirisu",
+            "habitat": "bosque",
+            "stage": "unica",
+            "sprite": "pachirisu"
+        },
+        {
+            "id": 418,
+            "name": "Buizel",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "buizel"
+        },
+        {
+            "id": 419,
+            "name": "Floatzel",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "floatzel"
+        },
+        {
+            "id": 420,
+            "name": "Cherubi",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "cherubi"
+        },
+        {
+            "id": 421,
+            "name": "Cherrim",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "cherrim"
+        },
+        {
+            "id": 422,
+            "name": "Shellos",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "shellos"
+        },
+        {
+            "id": 423,
+            "name": "Gastrodon",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "gastrodon"
+        },
+        {
+            "id": 424,
+            "name": "Ambipom",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "ambipom"
+        },
+        {
+            "id": 425,
+            "name": "Drifloon",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "drifloon"
+        },
+        {
+            "id": 426,
+            "name": "Drifblim",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "drifblim"
+        },
+        {
+            "id": 427,
+            "name": "Buneary",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "buneary"
+        },
+        {
+            "id": 428,
+            "name": "Lopunny",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "lopunny"
+        },
+        {
+            "id": 429,
+            "name": "Mismagius",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "mismagius"
+        },
+        {
+            "id": 430,
+            "name": "Honchkrow",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "honchkrow"
+        },
+        {
+            "id": 431,
+            "name": "Glameow",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "glameow"
+        },
+        {
+            "id": 432,
+            "name": "Purugly",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "purugly"
+        },
+        {
+            "id": 433,
+            "name": "Chingling",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "chingling"
+        },
+        {
+            "id": 434,
+            "name": "Stunky",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "stunky"
+        },
+        {
+            "id": 435,
+            "name": "Skuntank",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "skuntank"
+        },
+        {
+            "id": 436,
+            "name": "Bronzor",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "bronzor"
+        },
+        {
+            "id": 437,
+            "name": "Bronzong",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "bronzong"
+        },
+        {
+            "id": 438,
+            "name": "Bonsly",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "bonsly"
+        },
+        {
+            "id": 439,
+            "name": "Mime Jr.",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "mimejr"
+        },
+        {
+            "id": 440,
+            "name": "Happiny",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "happiny"
+        },
+        {
+            "id": 441,
+            "name": "Chatot",
+            "habitat": "bosque",
+            "stage": "unica",
+            "sprite": "chatot"
+        },
+        {
+            "id": 442,
+            "name": "Spiritomb",
+            "habitat": "ruinas",
+            "stage": "unica",
+            "sprite": "spiritomb"
+        },
+        {
+            "id": 443,
+            "name": "Gible",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "gible"
+        },
+        {
+            "id": 444,
+            "name": "Gabite",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "gabite"
+        },
+        {
+            "id": 445,
+            "name": "Garchomp",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "garchomp"
+        },
+        {
+            "id": 446,
+            "name": "Munchlax",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "munchlax"
+        },
+        {
+            "id": 447,
+            "name": "Riolu",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "riolu"
+        },
+        {
+            "id": 448,
+            "name": "Lucario",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "lucario"
+        },
+        {
+            "id": 449,
+            "name": "Hippopotas",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "hippopotas"
+        },
+        {
+            "id": 450,
+            "name": "Hippowdon",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "hippowdon"
+        },
+        {
+            "id": 451,
+            "name": "Skorupi",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "skorupi"
+        },
+        {
+            "id": 452,
+            "name": "Drapion",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "drapion"
+        },
+        {
+            "id": 453,
+            "name": "Croagunk",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "croagunk"
+        },
+        {
+            "id": 454,
+            "name": "Toxicroak",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "toxicroak"
+        },
+        {
+            "id": 455,
+            "name": "Carnivine",
+            "habitat": "bosque",
+            "stage": "unica",
+            "sprite": "carnivine"
+        },
+        {
+            "id": 456,
+            "name": "Finneon",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "finneon"
+        },
+        {
+            "id": 457,
+            "name": "Lumineon",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "lumineon"
+        },
+        {
+            "id": 458,
+            "name": "Mantyke",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "mantyke"
+        },
+        {
+            "id": 459,
+            "name": "Snover",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "snover"
+        },
+        {
+            "id": 460,
+            "name": "Abomasnow",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "abomasnow"
+        },
+        {
+            "id": 461,
+            "name": "Weavile",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "weavile"
+        },
+        {
+            "id": 462,
+            "name": "Magnezone",
+            "habitat": "aspero",
+            "stage": "dos",
+            "sprite": "magnezone"
+        },
+        {
+            "id": 463,
+            "name": "Lickilicky",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "lickilicky"
+        },
+        {
+            "id": 464,
+            "name": "Rhyperior",
+            "habitat": "aspero",
+            "stage": "dos",
+            "sprite": "rhyperior"
+        },
+        {
+            "id": 465,
+            "name": "Tangrowth",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "tangrowth"
+        },
+        {
+            "id": 466,
+            "name": "Electivire",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "electivire"
+        },
+        {
+            "id": 467,
+            "name": "Magmortar",
+            "habitat": "volcan",
+            "stage": "dos",
+            "sprite": "magmortar"
+        },
+        {
+            "id": 468,
+            "name": "Togekiss",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "togekiss"
+        },
+        {
+            "id": 469,
+            "name": "Yanmega",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "yanmega"
+        },
+        {
+            "id": 470,
+            "name": "Leafeon",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "leafeon"
+        },
+        {
+            "id": 471,
+            "name": "Glaceon",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "glaceon"
+        },
+        {
+            "id": 472,
+            "name": "Gliscor",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "gliscor"
+        },
+        {
+            "id": 473,
+            "name": "Mamoswine",
+            "habitat": "nieve",
+            "stage": "dos",
+            "sprite": "mamoswine"
+        },
+        {
+            "id": 474,
+            "name": "Porygon-Z",
+            "habitat": "urbano",
+            "stage": "dos",
+            "sprite": "porygonz"
+        },
+        {
+            "id": 475,
+            "name": "Gallade",
+            "habitat": "urbano",
+            "stage": "dos",
+            "sprite": "gallade"
+        },
+        {
+            "id": 476,
+            "name": "Probopass",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "probopass"
+        },
+        {
+            "id": 477,
+            "name": "Dusknoir",
+            "habitat": "ruinas",
+            "stage": "dos",
+            "sprite": "dusknoir"
+        },
+        {
+            "id": 478,
+            "name": "Froslass",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "froslass"
+        },
+        {
+            "id": 479,
+            "name": "Rotom",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "rotom"
+        },
+        {
+            "id": 495,
+            "name": "Snivy",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "snivy"
+        },
+        {
+            "id": 496,
+            "name": "Servine",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "servine"
+        },
+        {
+            "id": 497,
+            "name": "Serperior",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "serperior"
+        },
+        {
+            "id": 498,
+            "name": "Tepig",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "tepig"
+        },
+        {
+            "id": 499,
+            "name": "Pignite",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "pignite"
+        },
+        {
+            "id": 500,
+            "name": "Emboar",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "emboar"
+        },
+        {
+            "id": 501,
+            "name": "Oshawott",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "oshawott"
+        },
+        {
+            "id": 502,
+            "name": "Dewott",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "dewott"
+        },
+        {
+            "id": 503,
+            "name": "Samurott",
+            "habitat": "mar",
+            "stage": "dos",
+            "sprite": "samurott"
+        },
+        {
+            "id": 504,
+            "name": "Patrat",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "patrat"
+        },
+        {
+            "id": 505,
+            "name": "Watchog",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "watchog"
+        },
+        {
+            "id": 506,
+            "name": "Lillipup",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "lillipup"
+        },
+        {
+            "id": 507,
+            "name": "Herdier",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "herdier"
+        },
+        {
+            "id": 508,
+            "name": "Stoutland",
+            "habitat": "urbano",
+            "stage": "dos",
+            "sprite": "stoutland"
+        },
+        {
+            "id": 509,
+            "name": "Purrloin",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "purrloin"
+        },
+        {
+            "id": 510,
+            "name": "Liepard",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "liepard"
+        },
+        {
+            "id": 511,
+            "name": "Pansage",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "pansage"
+        },
+        {
+            "id": 512,
+            "name": "Simisage",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "simisage"
+        },
+        {
+            "id": 513,
+            "name": "Pansear",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "pansear"
+        },
+        {
+            "id": 514,
+            "name": "Simisear",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "simisear"
+        },
+        {
+            "id": 515,
+            "name": "Panpour",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "panpour"
+        },
+        {
+            "id": 516,
+            "name": "Simipour",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "simipour"
+        },
+        {
+            "id": 517,
+            "name": "Munna",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "munna"
+        },
+        {
+            "id": 518,
+            "name": "Musharna",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "musharna"
+        },
+        {
+            "id": 519,
+            "name": "Pidove",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "pidove"
+        },
+        {
+            "id": 520,
+            "name": "Tranquill",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "tranquill"
+        },
+        {
+            "id": 521,
+            "name": "Unfezant",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "unfezant"
+        },
+        {
+            "id": 522,
+            "name": "Blitzle",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "blitzle"
+        },
+        {
+            "id": 523,
+            "name": "Zebstrika",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "zebstrika"
+        },
+        {
+            "id": 524,
+            "name": "Roggenrola",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "roggenrola"
+        },
+        {
+            "id": 525,
+            "name": "Boldore",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "boldore"
+        },
+        {
+            "id": 526,
+            "name": "Gigalith",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "gigalith"
+        },
+        {
+            "id": 527,
+            "name": "Woobat",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "woobat"
+        },
+        {
+            "id": 528,
+            "name": "Swoobat",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "swoobat"
+        },
+        {
+            "id": 529,
+            "name": "Drilbur",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "drilbur"
+        },
+        {
+            "id": 530,
+            "name": "Excadrill",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "excadrill"
+        },
+        {
+            "id": 531,
+            "name": "Audino",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "audino"
+        },
+        {
+            "id": 532,
+            "name": "Timburr",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "timburr"
+        },
+        {
+            "id": 533,
+            "name": "Gurdurr",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "gurdurr"
+        },
+        {
+            "id": 534,
+            "name": "Conkeldurr",
+            "habitat": "urbano",
+            "stage": "dos",
+            "sprite": "conkeldurr"
+        },
+        {
+            "id": 535,
+            "name": "Tympole",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "tympole"
+        },
+        {
+            "id": 536,
+            "name": "Palpitoad",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "palpitoad"
+        },
+        {
+            "id": 537,
+            "name": "Seismitoad",
+            "habitat": "pantano",
+            "stage": "dos",
+            "sprite": "seismitoad"
+        },
+        {
+            "id": 538,
+            "name": "Throh",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "throh"
+        },
+        {
+            "id": 539,
+            "name": "Sawk",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "sawk"
+        },
+        {
+            "id": 540,
+            "name": "Sewaddle",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "sewaddle"
+        },
+        {
+            "id": 541,
+            "name": "Swadloon",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "swadloon"
+        },
+        {
+            "id": 542,
+            "name": "Leavanny",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "leavanny"
+        },
+        {
+            "id": 543,
+            "name": "Venipede",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "venipede"
+        },
+        {
+            "id": 544,
+            "name": "Whirlipede",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "whirlipede"
+        },
+        {
+            "id": 545,
+            "name": "Scolipede",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "scolipede"
+        },
+        {
+            "id": 546,
+            "name": "Cottonee",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "cottonee"
+        },
+        {
+            "id": 547,
+            "name": "Whimsicott",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "whimsicott"
+        },
+        {
+            "id": 548,
+            "name": "Petilil",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "petilil"
+        },
+        {
+            "id": 549,
+            "name": "Lilligant",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "lilligant"
+        },
+        {
+            "id": 550,
+            "name": "Basculin",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "basculin"
+        },
+        {
+            "id": 551,
+            "name": "Sandile",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "sandile"
+        },
+        {
+            "id": 552,
+            "name": "Krokorok",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "krokorok"
+        },
+        {
+            "id": 553,
+            "name": "Krookodile",
+            "habitat": "desierto",
+            "stage": "dos",
+            "sprite": "krookodile"
+        },
+        {
+            "id": 554,
+            "name": "Darumaka",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "darumaka"
+        },
+        {
+            "id": 555,
+            "name": "Darmanitan",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "darmanitan"
+        },
+        {
+            "id": 556,
+            "name": "Maractus",
+            "habitat": "desierto",
+            "stage": "unica",
+            "sprite": "maractus"
+        },
+        {
+            "id": 557,
+            "name": "Dwebble",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "dwebble"
+        },
+        {
+            "id": 558,
+            "name": "Crustle",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "crustle"
+        },
+        {
+            "id": 559,
+            "name": "Scraggy",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "scraggy"
+        },
+        {
+            "id": 560,
+            "name": "Scrafty",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "scrafty"
+        },
+        {
+            "id": 561,
+            "name": "Sigilyph",
+            "habitat": "ruinas",
+            "stage": "unica",
+            "sprite": "sigilyph"
+        },
+        {
+            "id": 562,
+            "name": "Yamask",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "yamask"
+        },
+        {
+            "id": 563,
+            "name": "Cofagrigus",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "cofagrigus"
+        },
+        {
+            "id": 564,
+            "name": "Tirtouga",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "tirtouga"
+        },
+        {
+            "id": 565,
+            "name": "Carracosta",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "carracosta"
+        },
+        {
+            "id": 566,
+            "name": "Archen",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "archen"
+        },
+        {
+            "id": 567,
+            "name": "Archeops",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "archeops"
+        },
+        {
+            "id": 568,
+            "name": "Trubbish",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "trubbish"
+        },
+        {
+            "id": 569,
+            "name": "Garbodor",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "garbodor"
+        },
+        {
+            "id": 570,
+            "name": "Zorua",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "zorua"
+        },
+        {
+            "id": 571,
+            "name": "Zoroark",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "zoroark"
+        },
+        {
+            "id": 572,
+            "name": "Minccino",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "minccino"
+        },
+        {
+            "id": 573,
+            "name": "Cinccino",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "cinccino"
+        },
+        {
+            "id": 574,
+            "name": "Gothita",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "gothita"
+        },
+        {
+            "id": 575,
+            "name": "Gothorita",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "gothorita"
+        },
+        {
+            "id": 576,
+            "name": "Gothitelle",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "gothitelle"
+        },
+        {
+            "id": 577,
+            "name": "Solosis",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "solosis"
+        },
+        {
+            "id": 578,
+            "name": "Duosion",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "duosion"
+        },
+        {
+            "id": 579,
+            "name": "Reuniclus",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "reuniclus"
+        },
+        {
+            "id": 580,
+            "name": "Ducklett",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "ducklett"
+        },
+        {
+            "id": 581,
+            "name": "Swanna",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "swanna"
+        },
+        {
+            "id": 582,
+            "name": "Vanillite",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "vanillite"
+        },
+        {
+            "id": 583,
+            "name": "Vanillish",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "vanillish"
+        },
+        {
+            "id": 584,
+            "name": "Vanilluxe",
+            "habitat": "nieve",
+            "stage": "dos",
+            "sprite": "vanilluxe"
+        },
+        {
+            "id": 585,
+            "name": "Deerling",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "deerling"
+        },
+        {
+            "id": 586,
+            "name": "Sawsbuck",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "sawsbuck"
+        },
+        {
+            "id": 587,
+            "name": "Emolga",
+            "habitat": "bosque",
+            "stage": "unica",
+            "sprite": "emolga"
+        },
+        {
+            "id": 588,
+            "name": "Karrablast",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "karrablast"
+        },
+        {
+            "id": 589,
+            "name": "Escavalier",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "escavalier"
+        },
+        {
+            "id": 590,
+            "name": "Foongus",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "foongus"
+        },
+        {
+            "id": 591,
+            "name": "Amoonguss",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "amoonguss"
+        },
+        {
+            "id": 592,
+            "name": "Frillish",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "frillish"
+        },
+        {
+            "id": 593,
+            "name": "Jellicent",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "jellicent"
+        },
+        {
+            "id": 594,
+            "name": "Alomomola",
+            "habitat": "mar",
+            "stage": "unica",
+            "sprite": "alomomola"
+        },
+        {
+            "id": 595,
+            "name": "Joltik",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "joltik"
+        },
+        {
+            "id": 596,
+            "name": "Galvantula",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "galvantula"
+        },
+        {
+            "id": 597,
+            "name": "Ferroseed",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "ferroseed"
+        },
+        {
+            "id": 598,
+            "name": "Ferrothorn",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "ferrothorn"
+        },
+        {
+            "id": 599,
+            "name": "Klink",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "klink"
+        },
+        {
+            "id": 600,
+            "name": "Klang",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "klang"
+        },
+        {
+            "id": 601,
+            "name": "Klinklang",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "klinklang"
+        },
+        {
+            "id": 602,
+            "name": "Tynamo",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "tynamo"
+        },
+        {
+            "id": 603,
+            "name": "Eelektrik",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "eelektrik"
+        },
+        {
+            "id": 604,
+            "name": "Eelektross",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "eelektross"
+        },
+        {
+            "id": 605,
+            "name": "Elgyem",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "elgyem"
+        },
+        {
+            "id": 606,
+            "name": "Beheeyem",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "beheeyem"
+        },
+        {
+            "id": 607,
+            "name": "Litwick",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "litwick"
+        },
+        {
+            "id": 608,
+            "name": "Lampent",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "lampent"
+        },
+        {
+            "id": 609,
+            "name": "Chandelure",
+            "habitat": "ruinas",
+            "stage": "dos",
+            "sprite": "chandelure"
+        },
+        {
+            "id": 610,
+            "name": "Axew",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "axew"
+        },
+        {
+            "id": 611,
+            "name": "Fraxure",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "fraxure"
+        },
+        {
+            "id": 612,
+            "name": "Haxorus",
+            "habitat": "montana",
+            "stage": "dos",
+            "sprite": "haxorus"
+        },
+        {
+            "id": 613,
+            "name": "Cubchoo",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "cubchoo"
+        },
+        {
+            "id": 614,
+            "name": "Beartic",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "beartic"
+        },
+        {
+            "id": 615,
+            "name": "Cryogonal",
+            "habitat": "nieve",
+            "stage": "unica",
+            "sprite": "cryogonal"
+        },
+        {
+            "id": 616,
+            "name": "Shelmet",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "shelmet"
+        },
+        {
+            "id": 617,
+            "name": "Accelgor",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "accelgor"
+        },
+        {
+            "id": 618,
+            "name": "Stunfisk",
+            "habitat": "pantano",
+            "stage": "unica",
+            "sprite": "stunfisk"
+        },
+        {
+            "id": 619,
+            "name": "Mienfoo",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "mienfoo"
+        },
+        {
+            "id": 620,
+            "name": "Mienshao",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "mienshao"
+        },
+        {
+            "id": 621,
+            "name": "Druddigon",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "druddigon"
+        },
+        {
+            "id": 622,
+            "name": "Golett",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "golett"
+        },
+        {
+            "id": 623,
+            "name": "Golurk",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "golurk"
+        },
+        {
+            "id": 624,
+            "name": "Pawniard",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "pawniard"
+        },
+        {
+            "id": 625,
+            "name": "Bisharp",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "bisharp"
+        },
+        {
+            "id": 626,
+            "name": "Bouffalant",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "bouffalant"
+        },
+        {
+            "id": 627,
+            "name": "Rufflet",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "rufflet"
+        },
+        {
+            "id": 628,
+            "name": "Braviary",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "braviary"
+        },
+        {
+            "id": 629,
+            "name": "Vullaby",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "vullaby"
+        },
+        {
+            "id": 630,
+            "name": "Mandibuzz",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "mandibuzz"
+        },
+        {
+            "id": 631,
+            "name": "Heatmor",
+            "habitat": "volcan",
+            "stage": "unica",
+            "sprite": "heatmor"
+        },
+        {
+            "id": 632,
+            "name": "Durant",
+            "habitat": "cueva",
+            "stage": "unica",
+            "sprite": "durant"
+        },
+        {
+            "id": 633,
+            "name": "Deino",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "deino"
+        },
+        {
+            "id": 634,
+            "name": "Zweilous",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "zweilous"
+        },
+        {
+            "id": 635,
+            "name": "Hydreigon",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "hydreigon"
+        },
+        {
+            "id": 636,
+            "name": "Larvesta",
+            "habitat": "volcan",
+            "stage": "basica",
+            "sprite": "larvesta"
+        },
+        {
+            "id": 637,
+            "name": "Volcarona",
+            "habitat": "volcan",
+            "stage": "uno",
+            "sprite": "volcarona"
+        },
+        {
+            "id": 650,
+            "name": "Chespin",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "chespin"
+        },
+        {
+            "id": 651,
+            "name": "Quilladin",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "quilladin"
+        },
+        {
+            "id": 652,
+            "name": "Chesnaught",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "chesnaught"
+        },
+        {
+            "id": 653,
+            "name": "Fennekin",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "fennekin"
+        },
+        {
+            "id": 654,
+            "name": "Braixen",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "braixen"
+        },
+        {
+            "id": 655,
+            "name": "Delphox",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "delphox"
+        },
+        {
+            "id": 656,
+            "name": "Froakie",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "froakie"
+        },
+        {
+            "id": 657,
+            "name": "Frogadier",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "frogadier"
+        },
+        {
+            "id": 658,
+            "name": "Greninja",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "greninja"
+        },
+        {
+            "id": 659,
+            "name": "Bunnelby",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "bunnelby"
+        },
+        {
+            "id": 660,
+            "name": "Diggersby",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "diggersby"
+        },
+        {
+            "id": 661,
+            "name": "Fletchling",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "fletchling"
+        },
+        {
+            "id": 662,
+            "name": "Fletchinder",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "fletchinder"
+        },
+        {
+            "id": 663,
+            "name": "Talonflame",
+            "habitat": "aspero",
+            "stage": "dos",
+            "sprite": "talonflame"
+        },
+        {
+            "id": 664,
+            "name": "Scatterbug",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "scatterbug"
+        },
+        {
+            "id": 665,
+            "name": "Spewpa",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "spewpa"
+        },
+        {
+            "id": 666,
+            "name": "Vivillon",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "vivillon"
+        },
+        {
+            "id": 667,
+            "name": "Litleo",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "litleo"
+        },
+        {
+            "id": 668,
+            "name": "Pyroar",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "pyroar"
+        },
+        {
+            "id": 669,
+            "name": "Flabébé",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "flabebe"
+        },
+        {
+            "id": 670,
+            "name": "Floette",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "floette"
+        },
+        {
+            "id": 671,
+            "name": "Florges",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "florges"
+        },
+        {
+            "id": 672,
+            "name": "Skiddo",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "skiddo"
+        },
+        {
+            "id": 673,
+            "name": "Gogoat",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "gogoat"
+        },
+        {
+            "id": 674,
+            "name": "Pancham",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "pancham"
+        },
+        {
+            "id": 675,
+            "name": "Pangoro",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "pangoro"
+        },
+        {
+            "id": 676,
+            "name": "Furfrou",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "furfrou"
+        },
+        {
+            "id": 677,
+            "name": "Espurr",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "espurr"
+        },
+        {
+            "id": 678,
+            "name": "Meowstic",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "meowstic"
+        },
+        {
+            "id": 679,
+            "name": "Honedge",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "honedge"
+        },
+        {
+            "id": 680,
+            "name": "Doublade",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "doublade"
+        },
+        {
+            "id": 681,
+            "name": "Aegislash",
+            "habitat": "ruinas",
+            "stage": "dos",
+            "sprite": "aegislash"
+        },
+        {
+            "id": 682,
+            "name": "Spritzee",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "spritzee"
+        },
+        {
+            "id": 683,
+            "name": "Aromatisse",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "aromatisse"
+        },
+        {
+            "id": 684,
+            "name": "Swirlix",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "swirlix"
+        },
+        {
+            "id": 685,
+            "name": "Slurpuff",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "slurpuff"
+        },
+        {
+            "id": 686,
+            "name": "Inkay",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "inkay"
+        },
+        {
+            "id": 687,
+            "name": "Malamar",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "malamar"
+        },
+        {
+            "id": 688,
+            "name": "Binacle",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "binacle"
+        },
+        {
+            "id": 689,
+            "name": "Barbaracle",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "barbaracle"
+        },
+        {
+            "id": 690,
+            "name": "Skrelp",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "skrelp"
+        },
+        {
+            "id": 691,
+            "name": "Dragalge",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "dragalge"
+        },
+        {
+            "id": 692,
+            "name": "Clauncher",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "clauncher"
+        },
+        {
+            "id": 693,
+            "name": "Clawitzer",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "clawitzer"
+        },
+        {
+            "id": 694,
+            "name": "Helioptile",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "helioptile"
+        },
+        {
+            "id": 695,
+            "name": "Heliolisk",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "heliolisk"
+        },
+        {
+            "id": 696,
+            "name": "Tyrunt",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "tyrunt"
+        },
+        {
+            "id": 697,
+            "name": "Tyrantrum",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "tyrantrum"
+        },
+        {
+            "id": 698,
+            "name": "Amaura",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "amaura"
+        },
+        {
+            "id": 699,
+            "name": "Aurorus",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "aurorus"
+        },
+        {
+            "id": 700,
+            "name": "Sylveon",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "sylveon"
+        },
+        {
+            "id": 701,
+            "name": "Hawlucha",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "hawlucha"
+        },
+        {
+            "id": 702,
+            "name": "Dedenne",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "dedenne"
+        },
+        {
+            "id": 703,
+            "name": "Carbink",
+            "habitat": "cueva",
+            "stage": "unica",
+            "sprite": "carbink"
+        },
+        {
+            "id": 704,
+            "name": "Goomy",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "goomy"
+        },
+        {
+            "id": 705,
+            "name": "Sliggoo",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "sliggoo"
+        },
+        {
+            "id": 706,
+            "name": "Goodra",
+            "habitat": "pantano",
+            "stage": "dos",
+            "sprite": "goodra"
+        },
+        {
+            "id": 707,
+            "name": "Klefki",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "klefki"
+        },
+        {
+            "id": 708,
+            "name": "Phantump",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "phantump"
+        },
+        {
+            "id": 709,
+            "name": "Trevenant",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "trevenant"
+        },
+        {
+            "id": 710,
+            "name": "Pumpkaboo",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "pumpkaboo"
+        },
+        {
+            "id": 711,
+            "name": "Gourgeist",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "gourgeist"
+        },
+        {
+            "id": 712,
+            "name": "Bergmite",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "bergmite"
+        },
+        {
+            "id": 713,
+            "name": "Avalugg",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "avalugg"
+        },
+        {
+            "id": 714,
+            "name": "Noibat",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "noibat"
+        },
+        {
+            "id": 715,
+            "name": "Noivern",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "noivern"
+        },
+        {
+            "id": 722,
+            "name": "Rowlet",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "rowlet"
+        },
+        {
+            "id": 723,
+            "name": "Dartrix",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "dartrix"
+        },
+        {
+            "id": 724,
+            "name": "Decidueye",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "decidueye"
+        },
+        {
+            "id": 725,
+            "name": "Litten",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "litten"
+        },
+        {
+            "id": 726,
+            "name": "Torracat",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "torracat"
+        },
+        {
+            "id": 727,
+            "name": "Incineroar",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "incineroar"
+        },
+        {
+            "id": 728,
+            "name": "Popplio",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "popplio"
+        },
+        {
+            "id": 729,
+            "name": "Brionne",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "brionne"
+        },
+        {
+            "id": 730,
+            "name": "Primarina",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "primarina"
+        },
+        {
+            "id": 731,
+            "name": "Pikipek",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "pikipek"
+        },
+        {
+            "id": 732,
+            "name": "Trumbeak",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "trumbeak"
+        },
+        {
+            "id": 733,
+            "name": "Toucannon",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "toucannon"
+        },
+        {
+            "id": 734,
+            "name": "Yungoos",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "yungoos"
+        },
+        {
+            "id": 735,
+            "name": "Gumshoos",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "gumshoos"
+        },
+        {
+            "id": 736,
+            "name": "Grubbin",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "grubbin"
+        },
+        {
+            "id": 737,
+            "name": "Charjabug",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "charjabug"
+        },
+        {
+            "id": 738,
+            "name": "Vikavolt",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "vikavolt"
+        },
+        {
+            "id": 739,
+            "name": "Crabrawler",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "crabrawler"
+        },
+        {
+            "id": 740,
+            "name": "Crabominable",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "crabominable"
+        },
+        {
+            "id": 741,
+            "name": "Oricorio",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "oricorio"
+        },
+        {
+            "id": 742,
+            "name": "Cutiefly",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "cutiefly"
+        },
+        {
+            "id": 743,
+            "name": "Ribombee",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "ribombee"
+        },
+        {
+            "id": 744,
+            "name": "Rockruff",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "rockruff"
+        },
+        {
+            "id": 745,
+            "name": "Lycanroc",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "lycanroc"
+        },
+        {
+            "id": 746,
+            "name": "Wishiwashi",
+            "habitat": "mar",
+            "stage": "unica",
+            "sprite": "wishiwashi"
+        },
+        {
+            "id": 747,
+            "name": "Mareanie",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "mareanie"
+        },
+        {
+            "id": 748,
+            "name": "Toxapex",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "toxapex"
+        },
+        {
+            "id": 749,
+            "name": "Mudbray",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "mudbray"
+        },
+        {
+            "id": 750,
+            "name": "Mudsdale",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "mudsdale"
+        },
+        {
+            "id": 751,
+            "name": "Dewpider",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "dewpider"
+        },
+        {
+            "id": 752,
+            "name": "Araquanid",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "araquanid"
+        },
+        {
+            "id": 753,
+            "name": "Fomantis",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "fomantis"
+        },
+        {
+            "id": 754,
+            "name": "Lurantis",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "lurantis"
+        },
+        {
+            "id": 755,
+            "name": "Morelull",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "morelull"
+        },
+        {
+            "id": 756,
+            "name": "Shiinotic",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "shiinotic"
+        },
+        {
+            "id": 757,
+            "name": "Salandit",
+            "habitat": "volcan",
+            "stage": "basica",
+            "sprite": "salandit"
+        },
+        {
+            "id": 758,
+            "name": "Salazzle",
+            "habitat": "volcan",
+            "stage": "uno",
+            "sprite": "salazzle"
+        },
+        {
+            "id": 759,
+            "name": "Stufful",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "stufful"
+        },
+        {
+            "id": 760,
+            "name": "Bewear",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "bewear"
+        },
+        {
+            "id": 761,
+            "name": "Bounsweet",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "bounsweet"
+        },
+        {
+            "id": 762,
+            "name": "Steenee",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "steenee"
+        },
+        {
+            "id": 763,
+            "name": "Tsareena",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "tsareena"
+        },
+        {
+            "id": 764,
+            "name": "Comfey",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "comfey"
+        },
+        {
+            "id": 765,
+            "name": "Oranguru",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "oranguru"
+        },
+        {
+            "id": 766,
+            "name": "Passimian",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "passimian"
+        },
+        {
+            "id": 767,
+            "name": "Wimpod",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "wimpod"
+        },
+        {
+            "id": 768,
+            "name": "Golisopod",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "golisopod"
+        },
+        {
+            "id": 769,
+            "name": "Sandygast",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "sandygast"
+        },
+        {
+            "id": 770,
+            "name": "Palossand",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "palossand"
+        },
+        {
+            "id": 771,
+            "name": "Pyukumuku",
+            "habitat": "mar",
+            "stage": "unica",
+            "sprite": "pyukumuku"
+        },
+        {
+            "id": 774,
+            "name": "Minior",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "minior"
+        },
+        {
+            "id": 775,
+            "name": "Komala",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "komala"
+        },
+        {
+            "id": 776,
+            "name": "Turtonator",
+            "habitat": "volcan",
+            "stage": "unica",
+            "sprite": "turtonator"
+        },
+        {
+            "id": 777,
+            "name": "Togedemaru",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "togedemaru"
+        },
+        {
+            "id": 778,
+            "name": "Mimikyu",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "mimikyu"
+        },
+        {
+            "id": 779,
+            "name": "Bruxish",
+            "habitat": "mar",
+            "stage": "unica",
+            "sprite": "bruxish"
+        },
+        {
+            "id": 780,
+            "name": "Drampa",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "drampa"
+        },
+        {
+            "id": 781,
+            "name": "Dhelmise",
+            "habitat": "mar",
+            "stage": "unica",
+            "sprite": "dhelmise"
+        },
+        {
+            "id": 782,
+            "name": "Jangmo-o",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "jangmoo"
+        },
+        {
+            "id": 783,
+            "name": "Hakamo-o",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "hakamoo"
+        },
+        {
+            "id": 784,
+            "name": "Kommo-o",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "kommoo"
+        },
+        {
+            "id": 810,
+            "name": "Grookey",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "grookey"
+        },
+        {
+            "id": 811,
+            "name": "Thwackey",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "thwackey"
+        },
+        {
+            "id": 812,
+            "name": "Rillaboom",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "rillaboom"
+        },
+        {
+            "id": 813,
+            "name": "Scorbunny",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "scorbunny"
+        },
+        {
+            "id": 814,
+            "name": "Raboot",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "raboot"
+        },
+        {
+            "id": 815,
+            "name": "Cinderace",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "cinderace"
+        },
+        {
+            "id": 816,
+            "name": "Sobble",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "sobble"
+        },
+        {
+            "id": 817,
+            "name": "Drizzile",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "drizzile"
+        },
+        {
+            "id": 818,
+            "name": "Inteleon",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "inteleon"
+        },
+        {
+            "id": 819,
+            "name": "Skwovet",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "skwovet"
+        },
+        {
+            "id": 820,
+            "name": "Greedent",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "greedent"
+        },
+        {
+            "id": 821,
+            "name": "Rookidee",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "rookidee"
+        },
+        {
+            "id": 822,
+            "name": "Corvisquire",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "corvisquire"
+        },
+        {
+            "id": 823,
+            "name": "Corviknight",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "corviknight"
+        },
+        {
+            "id": 824,
+            "name": "Blipbug",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "blipbug"
+        },
+        {
+            "id": 825,
+            "name": "Dottler",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "dottler"
+        },
+        {
+            "id": 826,
+            "name": "Orbeetle",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "orbeetle"
+        },
+        {
+            "id": 827,
+            "name": "Nickit",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "nickit"
+        },
+        {
+            "id": 828,
+            "name": "Thievul",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "thievul"
+        },
+        {
+            "id": 829,
+            "name": "Gossifleur",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "gossifleur"
+        },
+        {
+            "id": 830,
+            "name": "Eldegoss",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "eldegoss"
+        },
+        {
+            "id": 831,
+            "name": "Wooloo",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "wooloo"
+        },
+        {
+            "id": 832,
+            "name": "Dubwool",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "dubwool"
+        },
+        {
+            "id": 833,
+            "name": "Chewtle",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "chewtle"
+        },
+        {
+            "id": 834,
+            "name": "Drednaw",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "drednaw"
+        },
+        {
+            "id": 835,
+            "name": "Yamper",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "yamper"
+        },
+        {
+            "id": 836,
+            "name": "Boltund",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "boltund"
+        },
+        {
+            "id": 837,
+            "name": "Rolycoly",
+            "habitat": "volcan",
+            "stage": "basica",
+            "sprite": "rolycoly"
+        },
+        {
+            "id": 838,
+            "name": "Carkol",
+            "habitat": "volcan",
+            "stage": "uno",
+            "sprite": "carkol"
+        },
+        {
+            "id": 839,
+            "name": "Coalossal",
+            "habitat": "volcan",
+            "stage": "dos",
+            "sprite": "coalossal"
+        },
+        {
+            "id": 840,
+            "name": "Applin",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "applin"
+        },
+        {
+            "id": 841,
+            "name": "Flapple",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "flapple"
+        },
+        {
+            "id": 842,
+            "name": "Appletun",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "appletun"
+        },
+        {
+            "id": 843,
+            "name": "Silicobra",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "silicobra"
+        },
+        {
+            "id": 844,
+            "name": "Sandaconda",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "sandaconda"
+        },
+        {
+            "id": 845,
+            "name": "Cramorant",
+            "habitat": "orilla",
+            "stage": "unica",
+            "sprite": "cramorant"
+        },
+        {
+            "id": 846,
+            "name": "Arrokuda",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "arrokuda"
+        },
+        {
+            "id": 847,
+            "name": "Barraskewda",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "barraskewda"
+        },
+        {
+            "id": 848,
+            "name": "Toxel",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "toxel"
+        },
+        {
+            "id": 849,
+            "name": "Toxtricity",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "toxtricity"
+        },
+        {
+            "id": 850,
+            "name": "Sizzlipede",
+            "habitat": "volcan",
+            "stage": "basica",
+            "sprite": "sizzlipede"
+        },
+        {
+            "id": 851,
+            "name": "Centiskorch",
+            "habitat": "volcan",
+            "stage": "uno",
+            "sprite": "centiskorch"
+        },
+        {
+            "id": 852,
+            "name": "Clobbopus",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "clobbopus"
+        },
+        {
+            "id": 853,
+            "name": "Grapploct",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "grapploct"
+        },
+        {
+            "id": 854,
+            "name": "Sinistea",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "sinistea"
+        },
+        {
+            "id": 855,
+            "name": "Polteageist",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "polteageist"
+        },
+        {
+            "id": 856,
+            "name": "Hatenna",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "hatenna"
+        },
+        {
+            "id": 857,
+            "name": "Hattrem",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "hattrem"
+        },
+        {
+            "id": 858,
+            "name": "Hatterene",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "hatterene"
+        },
+        {
+            "id": 859,
+            "name": "Impidimp",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "impidimp"
+        },
+        {
+            "id": 860,
+            "name": "Morgrem",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "morgrem"
+        },
+        {
+            "id": 861,
+            "name": "Grimmsnarl",
+            "habitat": "urbano",
+            "stage": "dos",
+            "sprite": "grimmsnarl"
+        },
+        {
+            "id": 862,
+            "name": "Obstagoon",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "obstagoon"
+        },
+        {
+            "id": 863,
+            "name": "Perrserker",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "perrserker"
+        },
+        {
+            "id": 864,
+            "name": "Cursola",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "cursola"
+        },
+        {
+            "id": 865,
+            "name": "Sirfetch’d",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "sirfetchd"
+        },
+        {
+            "id": 866,
+            "name": "Mr. Rime",
+            "habitat": "urbano",
+            "stage": "dos",
+            "sprite": "mrrime"
+        },
+        {
+            "id": 867,
+            "name": "Runerigus",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "runerigus"
+        },
+        {
+            "id": 868,
+            "name": "Milcery",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "milcery"
+        },
+        {
+            "id": 869,
+            "name": "Alcremie",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "alcremie"
+        },
+        {
+            "id": 870,
+            "name": "Falinks",
+            "habitat": "montana",
+            "stage": "unica",
+            "sprite": "falinks"
+        },
+        {
+            "id": 871,
+            "name": "Pincurchin",
+            "habitat": "mar",
+            "stage": "unica",
+            "sprite": "pincurchin"
+        },
+        {
+            "id": 872,
+            "name": "Snom",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "snom"
+        },
+        {
+            "id": 873,
+            "name": "Frosmoth",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "frosmoth"
+        },
+        {
+            "id": 874,
+            "name": "Stonjourner",
+            "habitat": "ruinas",
+            "stage": "unica",
+            "sprite": "stonjourner"
+        },
+        {
+            "id": 875,
+            "name": "Eiscue",
+            "habitat": "nieve",
+            "stage": "unica",
+            "sprite": "eiscue"
+        },
+        {
+            "id": 876,
+            "name": "Indeedee",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "indeedee"
+        },
+        {
+            "id": 877,
+            "name": "Morpeko",
+            "habitat": "pradera",
+            "stage": "unica",
+            "sprite": "morpeko"
+        },
+        {
+            "id": 878,
+            "name": "Cufant",
+            "habitat": "aspero",
+            "stage": "basica",
+            "sprite": "cufant"
+        },
+        {
+            "id": 879,
+            "name": "Copperajah",
+            "habitat": "aspero",
+            "stage": "uno",
+            "sprite": "copperajah"
+        },
+        {
+            "id": 880,
+            "name": "Dracozolt",
+            "habitat": "ruinas",
+            "stage": "unica",
+            "sprite": "dracozolt"
+        },
+        {
+            "id": 881,
+            "name": "Arctozolt",
+            "habitat": "ruinas",
+            "stage": "unica",
+            "sprite": "arctozolt"
+        },
+        {
+            "id": 882,
+            "name": "Dracovish",
+            "habitat": "ruinas",
+            "stage": "unica",
+            "sprite": "dracovish"
+        },
+        {
+            "id": 883,
+            "name": "Arctovish",
+            "habitat": "ruinas",
+            "stage": "unica",
+            "sprite": "arctovish"
+        },
+        {
+            "id": 884,
+            "name": "Duraludon",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "duraludon"
+        },
+        {
+            "id": 885,
+            "name": "Dreepy",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "dreepy"
+        },
+        {
+            "id": 886,
+            "name": "Drakloak",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "drakloak"
+        },
+        {
+            "id": 887,
+            "name": "Dragapult",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "dragapult"
+        },
+        {
+            "id": 899,
+            "name": "Wyrdeer",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "wyrdeer"
+        },
+        {
+            "id": 900,
+            "name": "Kleavor",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "kleavor"
+        },
+        {
+            "id": 901,
+            "name": "Ursaluna",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "ursaluna"
+        },
+        {
+            "id": 902,
+            "name": "Basculegion",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "basculegion"
+        },
+        {
+            "id": 903,
+            "name": "Sneasler",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "sneasler"
+        },
+        {
+            "id": 904,
+            "name": "Overqwil",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "overqwil"
+        },
+        {
+            "id": 906,
+            "name": "Sprigatito",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "sprigatito"
+        },
+        {
+            "id": 907,
+            "name": "Floragato",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "floragato"
+        },
+        {
+            "id": 908,
+            "name": "Meowscarada",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "meowscarada"
+        },
+        {
+            "id": 909,
+            "name": "Fuecoco",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "fuecoco"
+        },
+        {
+            "id": 910,
+            "name": "Crocalor",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "crocalor"
+        },
+        {
+            "id": 911,
+            "name": "Skeledirge",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "skeledirge"
+        },
+        {
+            "id": 912,
+            "name": "Quaxly",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "quaxly"
+        },
+        {
+            "id": 913,
+            "name": "Quaxwell",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "quaxwell"
+        },
+        {
+            "id": 914,
+            "name": "Quaquaval",
+            "habitat": "orilla",
+            "stage": "dos",
+            "sprite": "quaquaval"
+        },
+        {
+            "id": 915,
+            "name": "Lechonk",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "lechonk"
+        },
+        {
+            "id": 916,
+            "name": "Oinkologne",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "oinkologne"
+        },
+        {
+            "id": 917,
+            "name": "Tarountula",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "tarountula"
+        },
+        {
+            "id": 918,
+            "name": "Spidops",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "spidops"
+        },
+        {
+            "id": 919,
+            "name": "Nymble",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "nymble"
+        },
+        {
+            "id": 920,
+            "name": "Lokix",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "lokix"
+        },
+        {
+            "id": 921,
+            "name": "Pawmi",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "pawmi"
+        },
+        {
+            "id": 922,
+            "name": "Pawmo",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "pawmo"
+        },
+        {
+            "id": 923,
+            "name": "Pawmot",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "pawmot"
+        },
+        {
+            "id": 924,
+            "name": "Tandemaus",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "tandemaus"
+        },
+        {
+            "id": 925,
+            "name": "Maushold",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "maushold"
+        },
+        {
+            "id": 926,
+            "name": "Fidough",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "fidough"
+        },
+        {
+            "id": 927,
+            "name": "Dachsbun",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "dachsbun"
+        },
+        {
+            "id": 928,
+            "name": "Smoliv",
+            "habitat": "pradera",
+            "stage": "basica",
+            "sprite": "smoliv"
+        },
+        {
+            "id": 929,
+            "name": "Dolliv",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "dolliv"
+        },
+        {
+            "id": 930,
+            "name": "Arboliva",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "arboliva"
+        },
+        {
+            "id": 931,
+            "name": "Squawkabilly",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "squawkabilly"
+        },
+        {
+            "id": 932,
+            "name": "Nacli",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "nacli"
+        },
+        {
+            "id": 933,
+            "name": "Naclstack",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "naclstack"
+        },
+        {
+            "id": 934,
+            "name": "Garganacl",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "garganacl"
+        },
+        {
+            "id": 935,
+            "name": "Charcadet",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "charcadet"
+        },
+        {
+            "id": 936,
+            "name": "Armarouge",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "armarouge"
+        },
+        {
+            "id": 937,
+            "name": "Ceruledge",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "ceruledge"
+        },
+        {
+            "id": 938,
+            "name": "Tadbulb",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "tadbulb"
+        },
+        {
+            "id": 939,
+            "name": "Bellibolt",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "bellibolt"
+        },
+        {
+            "id": 940,
+            "name": "Wattrel",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "wattrel"
+        },
+        {
+            "id": 941,
+            "name": "Kilowattrel",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "kilowattrel"
+        },
+        {
+            "id": 942,
+            "name": "Maschiff",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "maschiff"
+        },
+        {
+            "id": 943,
+            "name": "Mabosstiff",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "mabosstiff"
+        },
+        {
+            "id": 944,
+            "name": "Shroodle",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "shroodle"
+        },
+        {
+            "id": 945,
+            "name": "Grafaiai",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "grafaiai"
+        },
+        {
+            "id": 946,
+            "name": "Bramblin",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "bramblin"
+        },
+        {
+            "id": 947,
+            "name": "Brambleghast",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "brambleghast"
+        },
+        {
+            "id": 948,
+            "name": "Toedscool",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "toedscool"
+        },
+        {
+            "id": 949,
+            "name": "Toedscruel",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "toedscruel"
+        },
+        {
+            "id": 950,
+            "name": "Klawf",
+            "habitat": "aspero",
+            "stage": "unica",
+            "sprite": "klawf"
+        },
+        {
+            "id": 951,
+            "name": "Capsakid",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "capsakid"
+        },
+        {
+            "id": 952,
+            "name": "Scovillain",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "scovillain"
+        },
+        {
+            "id": 953,
+            "name": "Rellor",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "rellor"
+        },
+        {
+            "id": 954,
+            "name": "Rabsca",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "rabsca"
+        },
+        {
+            "id": 955,
+            "name": "Flittle",
+            "habitat": "desierto",
+            "stage": "basica",
+            "sprite": "flittle"
+        },
+        {
+            "id": 956,
+            "name": "Espathra",
+            "habitat": "desierto",
+            "stage": "uno",
+            "sprite": "espathra"
+        },
+        {
+            "id": 957,
+            "name": "Tinkatink",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "tinkatink"
+        },
+        {
+            "id": 958,
+            "name": "Tinkatuff",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "tinkatuff"
+        },
+        {
+            "id": 959,
+            "name": "Tinkaton",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "tinkaton"
+        },
+        {
+            "id": 960,
+            "name": "Wiglett",
+            "habitat": "orilla",
+            "stage": "basica",
+            "sprite": "wiglett"
+        },
+        {
+            "id": 961,
+            "name": "Wugtrio",
+            "habitat": "orilla",
+            "stage": "uno",
+            "sprite": "wugtrio"
+        },
+        {
+            "id": 962,
+            "name": "Bombirdier",
+            "habitat": "orilla",
+            "stage": "unica",
+            "sprite": "bombirdier"
+        },
+        {
+            "id": 963,
+            "name": "Finizen",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "finizen"
+        },
+        {
+            "id": 964,
+            "name": "Palafin",
+            "habitat": "mar",
+            "stage": "uno",
+            "sprite": "palafin"
+        },
+        {
+            "id": 965,
+            "name": "Varoom",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "varoom"
+        },
+        {
+            "id": 966,
+            "name": "Revavroom",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "revavroom"
+        },
+        {
+            "id": 967,
+            "name": "Cyclizar",
+            "habitat": "urbano",
+            "stage": "unica",
+            "sprite": "cyclizar"
+        },
+        {
+            "id": 968,
+            "name": "Orthworm",
+            "habitat": "desierto",
+            "stage": "unica",
+            "sprite": "orthworm"
+        },
+        {
+            "id": 969,
+            "name": "Glimmet",
+            "habitat": "cueva",
+            "stage": "basica",
+            "sprite": "glimmet"
+        },
+        {
+            "id": 970,
+            "name": "Glimmora",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "glimmora"
+        },
+        {
+            "id": 971,
+            "name": "Greavard",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "greavard"
+        },
+        {
+            "id": 972,
+            "name": "Houndstone",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "houndstone"
+        },
+        {
+            "id": 973,
+            "name": "Flamigo",
+            "habitat": "pantano",
+            "stage": "unica",
+            "sprite": "flamigo"
+        },
+        {
+            "id": 974,
+            "name": "Cetoddle",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "cetoddle"
+        },
+        {
+            "id": 975,
+            "name": "Cetitan",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "cetitan"
+        },
+        {
+            "id": 976,
+            "name": "Veluza",
+            "habitat": "mar",
+            "stage": "unica",
+            "sprite": "veluza"
+        },
+        {
+            "id": 977,
+            "name": "Dondozo",
+            "habitat": "orilla",
+            "stage": "unica",
+            "sprite": "dondozo"
+        },
+        {
+            "id": 978,
+            "name": "Tatsugiri",
+            "habitat": "orilla",
+            "stage": "unica",
+            "sprite": "tatsugiri"
+        },
+        {
+            "id": 979,
+            "name": "Annihilape",
+            "habitat": "montana",
+            "stage": "dos",
+            "sprite": "annihilape"
+        },
+        {
+            "id": 980,
+            "name": "Clodsire",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "clodsire"
+        },
+        {
+            "id": 981,
+            "name": "Farigiraf",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "farigiraf"
+        },
+        {
+            "id": 982,
+            "name": "Dudunsparce",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "dudunsparce"
+        },
+        {
+            "id": 983,
+            "name": "Kingambit",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "kingambit"
+        },
+        {
+            "id": 996,
+            "name": "Frigibax",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "frigibax"
+        },
+        {
+            "id": 997,
+            "name": "Arctibax",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "arctibax"
+        },
+        {
+            "id": 998,
+            "name": "Baxcalibur",
+            "habitat": "nieve",
+            "stage": "dos",
+            "sprite": "baxcalibur"
+        },
+        {
+            "id": 999,
+            "name": "Gimmighoul",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "gimmighoul"
+        },
+        {
+            "id": 1000,
+            "name": "Gholdengo",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "gholdengo"
+        },
+        {
+            "id": 1011,
+            "name": "Dipplin",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "dipplin"
+        },
+        {
+            "id": 1012,
+            "name": "Poltchageist",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "poltchageist"
+        },
+        {
+            "id": 1013,
+            "name": "Sinistcha",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "sinistcha"
+        },
+        {
+            "id": 1018,
+            "name": "Archaludon",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "archaludon"
+        },
+        {
+            "id": 1019,
+            "name": "Hydrapple",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "hydrapple"
+        }
+    ]
+}
