@@ -1,0 +1,206 @@
+{
+    "aliases": {
+        "superball": "greatball",
+        "superbola": "greatball",
+        "rapibola": "fastball",
+        "turnobola": "timerball",
+        "acopiobola": "repeatball",
+        "safaribola": "safariball",
+        "lujobola": "luxuryball",
+        "gloriabola": "cherishball",
+        "superpocion": "superpotion",
+        "hiperpocion": "hyperpotion",
+        "pocionmaxima": "maxpotion",
+        "revivir": "revive",
+        "revivirmaximo": "maxrevive"
+    },
+    "items": [
+        {
+            "id": "pokeball",
+            "name": "Pokébola",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/pokeball.png",
+            "description": "La de toda la vida. Se lleva de maravilla con los más jovencitos, sobre todo si ya están cansados.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "pokeball",
+            "price": 100,
+            "store": true
+        },
+        {
+            "id": "greatball",
+            "name": "Superbola",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/greatball.png",
+            "description": "Un pasito más seria. Ideal cuando el salvaje ya evolucionó una vez y no quieres dejarlo al azar.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "pokeball",
+            "price": 250,
+            "store": true
+        },
+        {
+            "id": "ultraball",
+            "name": "Ultrabola",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/ultraball.png",
+            "description": "La de confianza cuando el combate se pone serio. Si es grande y está agotado, esta es tu amiga.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "pokeball",
+            "price": 500,
+            "store": true
+        },
+        {
+            "id": "fastball",
+            "name": "Rapibola",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/fastball.png",
+            "description": "Impaciente. Le encanta el primer instante del encuentro; si te tardas, se le pasa el gusto.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "pokeball",
+            "price": 300,
+            "store": true
+        },
+        {
+            "id": "timerball",
+            "name": "Turnobola",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/timerball.png",
+            "description": "Paciente de verdad. Mientras más se alargue la pelea, más ganas tiene de cerrarla.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "pokeball",
+            "price": 300,
+            "store": true
+        },
+        {
+            "id": "repeatball",
+            "name": "Acopiobola",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/repeatball.png",
+            "description": "Para cuando ya tienes uno igual en casa. Con los conocidos se siente en confianza.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "pokeball",
+            "price": 400,
+            "store": true
+        },
+        {
+            "id": "luxuryball",
+            "name": "Lujobola",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/luxuryball.png",
+            "description": "Elegante y muy capaz. Una de esas especiales que se sienten distintas en la mano.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "pokeball",
+            "price": 750,
+            "store": true
+        },
+        {
+            "id": "safetygoggles",
+            "name": "Gafas de Seguridad",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/safetygoggles.png",
+            "description": "Otorga acceso a las zonas con tormentas de arena.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "especial",
+            "price": 1500,
+            "store": true
+        },
+        {
+            "id": "potion",
+            "name": "Poción",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/potion.png",
+            "description": "Sana heridas menores.",
+            "icon": "fa-heart",
+            "effect_label": "cura",
+            "effect_value": "25 HP",
+            "price": 200,
+            "store": true
+        },
+        {
+            "id": "superpotion",
+            "name": "Superpoción",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/superpotion.png",
+            "description": "Sana heridas más serias.",
+            "icon": "fa-heart",
+            "effect_label": "cura",
+            "effect_value": "75 HP",
+            "price": 700,
+            "store": true
+        },
+        {
+            "id": "hyperpotion",
+            "name": "Hiperpoción",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/hyperpotion.png",
+            "description": "Para cuando el golpe dolió de verdad.",
+            "icon": "fa-heart",
+            "effect_label": "cura",
+            "effect_value": "170 HP",
+            "price": 1500,
+            "store": true
+        },
+        {
+            "id": "maxpotion",
+            "name": "Poción máxima",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/maxpotion.png",
+            "description": "Devuelve toda la salud de un golpe.",
+            "icon": "fa-heart",
+            "effect_label": "cura",
+            "effect_value": "todos los PS",
+            "price": 2500,
+            "store": true
+        },
+        {
+            "id": "revive",
+            "name": "Revivir",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/revive.png",
+            "description": "Levanta a un Pokémon noqueado con la mitad de sus PS.",
+            "icon": "fa-heart",
+            "effect_label": "revive",
+            "effect_value": "50% PS",
+            "price": 2000,
+            "store": true
+        },
+        {
+            "id": "maxrevive",
+            "name": "Revivir máximo",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/maxrevive.png",
+            "description": "Levanta a un Pokémon noqueado con todos sus PS.",
+            "icon": "fa-heart",
+            "effect_label": "revive",
+            "effect_value": "100% PS",
+            "price": 4000,
+            "store": true
+        },
+        {
+            "id": "safariball",
+            "name": "Safaribola",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/safariball.png",
+            "description": "La de las reservas. Solo tiene sentido donde el safari está permitido.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "pokeball",
+            "price": null,
+            "store": false
+        },
+        {
+            "id": "cherishball",
+            "name": "Gloriabola",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/cherishball.png",
+            "description": "La joya de la vitrina. Si no es una Masterbola, no hay otra que le gane el pulso.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "pokeball",
+            "price": null,
+            "store": false
+        },
+        {
+            "id": "masterball",
+            "name": "Masterbola",
+            "img": "https://www.serebii.net/itemdex/sprites/sv/masterball.png",
+            "description": "Un clic y adentro. No hay pelea, no hay espera: simplemente es tuya.",
+            "icon": "fa-star",
+            "effect_label": "tipo",
+            "effect_value": "pokeball",
+            "price": null,
+            "store": false
+        }
+    ]
+}
