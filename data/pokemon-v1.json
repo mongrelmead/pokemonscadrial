@@ -256,12 +256,34 @@
             ]
         },
         {
+            "id": 19,
+            "name": "Rattata de Alola",
+            "habitat": "urbano",
+            "stage": "basica",
+            "sprite": "rattata-alola",
+            "types": [
+                "dark",
+                "normal"
+            ]
+        },
+        {
             "id": 20,
             "name": "Raticate",
             "habitat": "pradera",
             "stage": "uno",
             "sprite": "raticate",
             "types": [
+                "normal"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Raticate de Alola",
+            "habitat": "urbano",
+            "stage": "uno",
+            "sprite": "raticate-alola",
+            "types": [
+                "dark",
                 "normal"
             ]
         },
@@ -328,6 +350,17 @@
             ]
         },
         {
+            "id": 26,
+            "name": "Raichu de Alola",
+            "habitat": "pradera",
+            "stage": "dos",
+            "sprite": "raichu-alola",
+            "types": [
+                "electric",
+                "psychic"
+            ]
+        },
+        {
             "id": 27,
             "name": "Sandshrew",
             "habitat": "desierto",
@@ -338,6 +371,17 @@
             ]
         },
         {
+            "id": 27,
+            "name": "Sandshrew de Alola",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "sandshrew-alola",
+            "types": [
+                "ice",
+                "steel"
+            ]
+        },
+        {
             "id": 28,
             "name": "Sandslash",
             "habitat": "desierto",
@@ -345,6 +389,17 @@
             "sprite": "sandslash",
             "types": [
                 "ground"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Sandslash de Alola",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "sandslash-alola",
+            "types": [
+                "ice",
+                "steel"
             ]
         },
         {
@@ -440,6 +495,16 @@
             ]
         },
         {
+            "id": 37,
+            "name": "Vulpix de Alola",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "vulpix-alola",
+            "types": [
+                "ice"
+            ]
+        },
+        {
             "id": 38,
             "name": "Ninetales",
             "habitat": "pradera",
@@ -447,6 +512,17 @@
             "sprite": "ninetales",
             "types": [
                 "fire"
+            ]
+        },
+        {
+            "id": 38,
+            "name": "Ninetales de Alola",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "ninetales-alola",
+            "types": [
+                "ice",
+                "fairy"
             ]
         },
         {
@@ -581,6 +657,17 @@
             ]
         },
         {
+            "id": 50,
+            "name": "Diglett de Alola",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "diglett-alola",
+            "types": [
+                "ground",
+                "steel"
+            ]
+        },
+        {
             "id": 51,
             "name": "Dugtrio",
             "habitat": "cueva",
@@ -588,6 +675,17 @@
             "sprite": "dugtrio",
             "types": [
                 "ground"
+            ]
+        },
+        {
+            "id": 51,
+            "name": "Dugtrio de Alola",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "dugtrio-alola",
+            "types": [
+                "ground",
+                "steel"
             ]
         },
         {
@@ -601,6 +699,26 @@
             ]
         },
         {
+            "id": 52,
+            "name": "Meowth de Alola",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "meowth-alola",
+            "types": [
+                "dark"
+            ]
+        },
+        {
+            "id": 52,
+            "name": "Meowth de Galar",
+            "habitat": "campo",
+            "stage": "basica",
+            "sprite": "meowth-galar",
+            "types": [
+                "steel"
+            ]
+        },
+        {
             "id": 53,
             "name": "Persian",
             "habitat": "urbano",
@@ -608,6 +726,16 @@
             "sprite": "persian",
             "types": [
                 "normal"
+            ]
+        },
+        {
+            "id": 53,
+            "name": "Persian de Alola",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "persian-alola",
+            "types": [
+                "dark"
             ]
         },
         {
@@ -661,6 +789,17 @@
             ]
         },
         {
+            "id": 58,
+            "name": "Growlithe de Hisui",
+            "habitat": "volcan",
+            "stage": "basica",
+            "sprite": "growlithe-hisui",
+            "types": [
+                "fire",
+                "rock"
+            ]
+        },
+        {
             "id": 59,
             "name": "Arcanine",
             "habitat": "pradera",
@@ -668,6 +807,17 @@
             "sprite": "arcanine",
             "types": [
                 "fire"
+            ]
+        },
+        {
+            "id": 59,
+            "name": "Arcanine de Hisui",
+            "habitat": "volcan",
+            "stage": "uno",
+            "sprite": "arcanine-hisui",
+            "types": [
+                "fire",
+                "rock"
             ]
         },
         {
@@ -828,6 +978,17 @@
             ]
         },
         {
+            "id": 74,
+            "name": "Geodude de Alola",
+            "habitat": "volcan",
+            "stage": "basica",
+            "sprite": "geodude-alola",
+            "types": [
+                "rock",
+                "electric"
+            ]
+        },
+        {
             "id": 75,
             "name": "Graveler",
             "habitat": "montana",
@@ -836,6 +997,17 @@
             "types": [
                 "rock",
                 "ground"
+            ]
+        },
+        {
+            "id": 75,
+            "name": "Graveler de Alola",
+            "habitat": "volcan",
+            "stage": "uno",
+            "sprite": "graveler-alola",
+            "types": [
+                "rock",
+                "electric"
             ]
         },
         {
@@ -850,6 +1022,17 @@
             ]
         },
         {
+            "id": 76,
+            "name": "Golem de Alola",
+            "habitat": "volcan",
+            "stage": "dos",
+            "sprite": "golem-alola",
+            "types": [
+                "rock",
+                "electric"
+            ]
+        },
+        {
             "id": 77,
             "name": "Ponyta",
             "habitat": "pradera",
@@ -860,6 +1043,16 @@
             ]
         },
         {
+            "id": 77,
+            "name": "Ponyta de Galar",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "ponyta-galar",
+            "types": [
+                "psychic"
+            ]
+        },
+        {
             "id": 78,
             "name": "Rapidash",
             "habitat": "pradera",
@@ -867,6 +1060,17 @@
             "sprite": "rapidash",
             "types": [
                 "fire"
+            ]
+        },
+        {
+            "id": 78,
+            "name": "Rapidash de Galar",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "rapidash-galar",
+            "types": [
+                "psychic",
+                "fairy"
             ]
         },
         {
@@ -881,6 +1085,16 @@
             ]
         },
         {
+            "id": 79,
+            "name": "Slowpoke de Galar",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "slowpoke-galar",
+            "types": [
+                "psychic"
+            ]
+        },
+        {
             "id": 80,
             "name": "Slowbro",
             "habitat": "aguadulce",
@@ -888,6 +1102,17 @@
             "sprite": "slowbro",
             "types": [
                 "water",
+                "psychic"
+            ]
+        },
+        {
+            "id": 80,
+            "name": "Slowbro de Galar",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "slowbro-galar",
+            "types": [
+                "poison",
                 "psychic"
             ]
         },
@@ -922,6 +1147,16 @@
             "types": [
                 "normal",
                 "flying"
+            ]
+        },
+        {
+            "id": 83,
+            "name": "Farfetch’d de Galar",
+            "habitat": "campo",
+            "stage": "basica",
+            "sprite": "farfetchd-galar",
+            "types": [
+                "fighting"
             ]
         },
         {
@@ -978,6 +1213,17 @@
             ]
         },
         {
+            "id": 88,
+            "name": "Grimer de Alola",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "grimer-alola",
+            "types": [
+                "poison",
+                "dark"
+            ]
+        },
+        {
             "id": 89,
             "name": "Muk",
             "habitat": "urbano",
@@ -985,6 +1231,17 @@
             "sprite": "muk",
             "types": [
                 "poison"
+            ]
+        },
+        {
+            "id": 89,
+            "name": "Muk de Alola",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "muk-alola",
+            "types": [
+                "poison",
+                "dark"
             ]
         },
         {
@@ -1103,6 +1360,17 @@
             ]
         },
         {
+            "id": 100,
+            "name": "Voltorb de Hisui",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "voltorb-hisui",
+            "types": [
+                "electric",
+                "grass"
+            ]
+        },
+        {
             "id": 101,
             "name": "Electrode",
             "habitat": "urbano",
@@ -1110,6 +1378,17 @@
             "sprite": "electrode",
             "types": [
                 "electric"
+            ]
+        },
+        {
+            "id": 101,
+            "name": "Electrode de Hisui",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "electrode-hisui",
+            "types": [
+                "electric",
+                "grass"
             ]
         },
         {
@@ -1135,6 +1414,17 @@
             ]
         },
         {
+            "id": 103,
+            "name": "Exeggutor de Alola",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "exeggutor-alola",
+            "types": [
+                "grass",
+                "dragon"
+            ]
+        },
+        {
             "id": 104,
             "name": "Cubone",
             "habitat": "montana",
@@ -1152,6 +1442,17 @@
             "sprite": "marowak",
             "types": [
                 "ground"
+            ]
+        },
+        {
+            "id": 105,
+            "name": "Marowak de Alola",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "marowak-alola",
+            "types": [
+                "fire",
+                "ghost"
             ]
         },
         {
@@ -1202,6 +1503,17 @@
             "sprite": "weezing",
             "types": [
                 "poison"
+            ]
+        },
+        {
+            "id": 110,
+            "name": "Weezing de Galar",
+            "habitat": "campo",
+            "stage": "uno",
+            "sprite": "weezing-galar",
+            "types": [
+                "poison",
+                "fairy"
             ]
         },
         {
@@ -1329,6 +1641,17 @@
             ]
         },
         {
+            "id": 122,
+            "name": "Mr. Mime de Galar",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "mrmime-galar",
+            "types": [
+                "ice",
+                "psychic"
+            ]
+        },
+        {
             "id": 123,
             "name": "Scyther",
             "habitat": "pradera",
@@ -1388,6 +1711,38 @@
             "sprite": "tauros",
             "types": [
                 "normal"
+            ]
+        },
+        {
+            "id": 128,
+            "name": "Tauros de Paldea (Combate)",
+            "habitat": "campo",
+            "stage": "unica",
+            "sprite": "tauros-paldeacombat",
+            "types": [
+                "fighting"
+            ]
+        },
+        {
+            "id": 128,
+            "name": "Tauros de Paldea (Ascua)",
+            "habitat": "volcan",
+            "stage": "unica",
+            "sprite": "tauros-paldeablaze",
+            "types": [
+                "fighting",
+                "fire"
+            ]
+        },
+        {
+            "id": 128,
+            "name": "Tauros de Paldea (Agua)",
+            "habitat": "aguadulce",
+            "stage": "unica",
+            "sprite": "tauros-paldeaaqua",
+            "types": [
+                "fighting",
+                "water"
             ]
         },
         {
@@ -1636,6 +1991,17 @@
             "sprite": "typhlosion",
             "types": [
                 "fire"
+            ]
+        },
+        {
+            "id": 157,
+            "name": "Typhlosion de Hisui",
+            "habitat": "ruinas",
+            "stage": "dos",
+            "sprite": "typhlosion-hisui",
+            "types": [
+                "fire",
+                "ghost"
             ]
         },
         {
@@ -2029,6 +2395,17 @@
             ]
         },
         {
+            "id": 194,
+            "name": "Wooper de Paldea",
+            "habitat": "pantano",
+            "stage": "basica",
+            "sprite": "wooper-paldea",
+            "types": [
+                "poison",
+                "ground"
+            ]
+        },
+        {
             "id": 195,
             "name": "Quagsire",
             "habitat": "pantano",
@@ -2078,6 +2455,17 @@
             "sprite": "slowking",
             "types": [
                 "water",
+                "psychic"
+            ]
+        },
+        {
+            "id": 199,
+            "name": "Slowking de Galar",
+            "habitat": "pantano",
+            "stage": "uno",
+            "sprite": "slowking-galar",
+            "types": [
+                "poison",
                 "psychic"
             ]
         },
@@ -2207,6 +2595,17 @@
             ]
         },
         {
+            "id": 211,
+            "name": "Qwilfish de Hisui",
+            "habitat": "mar",
+            "stage": "basica",
+            "sprite": "qwilfish-hisui",
+            "types": [
+                "dark",
+                "poison"
+            ]
+        },
+        {
             "id": 212,
             "name": "Scizor",
             "habitat": "pradera",
@@ -2248,6 +2647,17 @@
             "types": [
                 "dark",
                 "ice"
+            ]
+        },
+        {
+            "id": 215,
+            "name": "Sneasel de Hisui",
+            "habitat": "montana",
+            "stage": "basica",
+            "sprite": "sneasel-hisui",
+            "types": [
+                "fighting",
+                "poison"
             ]
         },
         {
@@ -2322,6 +2732,16 @@
             "types": [
                 "water",
                 "rock"
+            ]
+        },
+        {
+            "id": 222,
+            "name": "Corsola de Galar",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "corsola-galar",
+            "types": [
+                "ghost"
             ]
         },
         {
@@ -2689,12 +3109,34 @@
             ]
         },
         {
+            "id": 263,
+            "name": "Zigzagoon de Galar",
+            "habitat": "bosque",
+            "stage": "basica",
+            "sprite": "zigzagoon-galar",
+            "types": [
+                "dark",
+                "normal"
+            ]
+        },
+        {
             "id": 264,
             "name": "Linoone",
             "habitat": "pradera",
             "stage": "uno",
             "sprite": "linoone",
             "types": [
+                "normal"
+            ]
+        },
+        {
+            "id": 264,
+            "name": "Linoone de Galar",
+            "habitat": "bosque",
+            "stage": "uno",
+            "sprite": "linoone-galar",
+            "types": [
+                "dark",
                 "normal"
             ]
         },
@@ -4948,6 +5390,17 @@
             ]
         },
         {
+            "id": 503,
+            "name": "Samurott de Hisui",
+            "habitat": "aguadulce",
+            "stage": "dos",
+            "sprite": "samurott-hisui",
+            "types": [
+                "water",
+                "dark"
+            ]
+        },
+        {
             "id": 504,
             "name": "Patrat",
             "habitat": "pradera",
@@ -5424,6 +5877,17 @@
             ]
         },
         {
+            "id": 549,
+            "name": "Lilligant de Hisui",
+            "habitat": "pradera",
+            "stage": "uno",
+            "sprite": "lilligant-hisui",
+            "types": [
+                "grass",
+                "fighting"
+            ]
+        },
+        {
             "id": 550,
             "name": "Basculin",
             "habitat": "aguadulce",
@@ -5477,6 +5941,16 @@
             ]
         },
         {
+            "id": 554,
+            "name": "Darumaka de Galar",
+            "habitat": "nieve",
+            "stage": "basica",
+            "sprite": "darumaka-galar",
+            "types": [
+                "ice"
+            ]
+        },
+        {
             "id": 555,
             "name": "Darmanitan",
             "habitat": "desierto",
@@ -5484,6 +5958,16 @@
             "sprite": "darmanitan",
             "types": [
                 "fire"
+            ]
+        },
+        {
+            "id": 555,
+            "name": "Darmanitan de Galar",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "darmanitan-galar",
+            "types": [
+                "ice"
             ]
         },
         {
@@ -5558,6 +6042,17 @@
             "stage": "basica",
             "sprite": "yamask",
             "types": [
+                "ghost"
+            ]
+        },
+        {
+            "id": 562,
+            "name": "Yamask de Galar",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "yamask-galar",
+            "types": [
+                "ground",
                 "ghost"
             ]
         },
@@ -5646,6 +6141,17 @@
             ]
         },
         {
+            "id": 570,
+            "name": "Zorua de Hisui",
+            "habitat": "ruinas",
+            "stage": "basica",
+            "sprite": "zorua-hisui",
+            "types": [
+                "normal",
+                "ghost"
+            ]
+        },
+        {
             "id": 571,
             "name": "Zoroark",
             "habitat": "bosque",
@@ -5653,6 +6159,17 @@
             "sprite": "zoroark",
             "types": [
                 "dark"
+            ]
+        },
+        {
+            "id": 571,
+            "name": "Zoroark de Hisui",
+            "habitat": "ruinas",
+            "stage": "uno",
+            "sprite": "zoroark-hisui",
+            "types": [
+                "normal",
+                "ghost"
             ]
         },
         {
@@ -6144,6 +6661,17 @@
             ]
         },
         {
+            "id": 618,
+            "name": "Stunfisk de Galar",
+            "habitat": "desierto",
+            "stage": "unica",
+            "sprite": "stunfisk-galar",
+            "types": [
+                "ground",
+                "steel"
+            ]
+        },
+        {
             "id": 619,
             "name": "Mienfoo",
             "habitat": "bosque",
@@ -6246,6 +6774,17 @@
             "sprite": "braviary",
             "types": [
                 "normal",
+                "flying"
+            ]
+        },
+        {
+            "id": 628,
+            "name": "Braviary de Hisui",
+            "habitat": "nieve",
+            "stage": "uno",
+            "sprite": "braviary-hisui",
+            "types": [
+                "psychic",
                 "flying"
             ]
         },
@@ -6937,12 +7476,34 @@
             ]
         },
         {
+            "id": 705,
+            "name": "Sliggoo de Hisui",
+            "habitat": "cueva",
+            "stage": "uno",
+            "sprite": "sliggoo-hisui",
+            "types": [
+                "steel",
+                "dragon"
+            ]
+        },
+        {
             "id": 706,
             "name": "Goodra",
             "habitat": "pantano",
             "stage": "dos",
             "sprite": "goodra",
             "types": [
+                "dragon"
+            ]
+        },
+        {
+            "id": 706,
+            "name": "Goodra de Hisui",
+            "habitat": "cueva",
+            "stage": "dos",
+            "sprite": "goodra-hisui",
+            "types": [
+                "steel",
                 "dragon"
             ]
         },
@@ -7022,6 +7583,17 @@
             ]
         },
         {
+            "id": 713,
+            "name": "Avalugg de Hisui",
+            "habitat": "montana",
+            "stage": "uno",
+            "sprite": "avalugg-hisui",
+            "types": [
+                "ice",
+                "rock"
+            ]
+        },
+        {
             "id": 714,
             "name": "Noibat",
             "habitat": "cueva",
@@ -7074,6 +7646,17 @@
             "types": [
                 "grass",
                 "ghost"
+            ]
+        },
+        {
+            "id": 724,
+            "name": "Decidueye de Hisui",
+            "habitat": "bosque",
+            "stage": "dos",
+            "sprite": "decidueye-hisui",
+            "types": [
+                "grass",
+                "fighting"
             ]
         },
         {
