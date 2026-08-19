@@ -24,7 +24,8 @@
             "effect_label": "tipo",
             "effect_value": "pokeball",
             "price": 100,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "greatball",
@@ -35,7 +36,8 @@
             "effect_label": "tipo",
             "effect_value": "pokeball",
             "price": 250,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "ultraball",
@@ -46,7 +48,8 @@
             "effect_label": "tipo",
             "effect_value": "pokeball",
             "price": 500,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "fastball",
@@ -57,7 +60,8 @@
             "effect_label": "tipo",
             "effect_value": "pokeball",
             "price": 300,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "timerball",
@@ -68,7 +72,8 @@
             "effect_label": "tipo",
             "effect_value": "pokeball",
             "price": 300,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "repeatball",
@@ -79,7 +84,8 @@
             "effect_label": "tipo",
             "effect_value": "pokeball",
             "price": 400,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "luxuryball",
@@ -90,7 +96,8 @@
             "effect_label": "tipo",
             "effect_value": "pokeball",
             "price": 750,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "safetygoggles",
@@ -101,7 +108,8 @@
             "effect_label": "tipo",
             "effect_value": "especial",
             "price": 1500,
-            "store": true
+            "store": true,
+            "salvaje": false
         },
         {
             "id": "potion",
@@ -112,7 +120,8 @@
             "effect_label": "cura",
             "effect_value": "25 HP",
             "price": 200,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "superpotion",
@@ -123,7 +132,8 @@
             "effect_label": "cura",
             "effect_value": "75 HP",
             "price": 700,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "hyperpotion",
@@ -134,7 +144,8 @@
             "effect_label": "cura",
             "effect_value": "170 HP",
             "price": 1500,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "maxpotion",
@@ -145,7 +156,8 @@
             "effect_label": "cura",
             "effect_value": "todos los PS",
             "price": 2500,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "revive",
@@ -156,7 +168,8 @@
             "effect_label": "revive",
             "effect_value": "50% PS",
             "price": 2000,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "maxrevive",
@@ -167,7 +180,8 @@
             "effect_label": "revive",
             "effect_value": "100% PS",
             "price": 4000,
-            "store": true
+            "store": true,
+            "salvaje": true
         },
         {
             "id": "safariball",
@@ -178,7 +192,8 @@
             "effect_label": "tipo",
             "effect_value": "pokeball",
             "price": null,
-            "store": false
+            "store": false,
+            "salvaje": false
         },
         {
             "id": "cherishball",
@@ -189,7 +204,8 @@
             "effect_label": "tipo",
             "effect_value": "pokeball",
             "price": null,
-            "store": false
+            "store": false,
+            "salvaje": true
         },
         {
             "id": "masterball",
@@ -200,7 +216,619 @@
             "effect_label": "tipo",
             "effect_value": "pokeball",
             "price": null,
-            "store": false
+            "store": false,
+            "salvaje": true
+        },
+        {
+            "id": "venusaurite",
+            "name": "Venusaurita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/venusaurite.png",
+            "description": "Hace megaevolucionar a Venusaur.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "venusaur",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 3
+        },
+        {
+            "id": "charizarditex",
+            "name": "Charizardita X",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/charizarditex.png",
+            "description": "Hace megaevolucionar a Charizard a su forma X.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "charizard-x",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 6
+        },
+        {
+            "id": "charizarditey",
+            "name": "Charizardita Y",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/charizarditey.png",
+            "description": "Hace megaevolucionar a Charizard a su forma Y.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "charizard-y",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 6
+        },
+        {
+            "id": "blastoisinite",
+            "name": "Blastoisita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/blastoisinite.png",
+            "description": "Hace megaevolucionar a Blastoise.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "blastoise",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 9
+        },
+        {
+            "id": "beedrillite",
+            "name": "Beedrillita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/beedrillite.png",
+            "description": "Hace megaevolucionar a Beedrill.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "beedrill",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 15
+        },
+        {
+            "id": "pidgeotite",
+            "name": "Pidgeotita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/pidgeotite.png",
+            "description": "Hace megaevolucionar a Pidgeot.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "pidgeot",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 18
+        },
+        {
+            "id": "alakazite",
+            "name": "Alakazamita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/alakazite.png",
+            "description": "Hace megaevolucionar a Alakazam.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "alakazam",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 65
+        },
+        {
+            "id": "slowbronite",
+            "name": "Slowbronita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/slowbronite.png",
+            "description": "Hace megaevolucionar a Slowbro.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "slowbro",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 80
+        },
+        {
+            "id": "gengarite",
+            "name": "Gengarita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/gengarite.png",
+            "description": "Hace megaevolucionar a Gengar.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "gengar",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 94
+        },
+        {
+            "id": "kangaskhanite",
+            "name": "Kangaskhanita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/kangaskhanite.png",
+            "description": "Hace megaevolucionar a Kangaskhan.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "kangaskhan",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 115
+        },
+        {
+            "id": "pinsirite",
+            "name": "Pinsirita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/pinsirite.png",
+            "description": "Hace megaevolucionar a Pinsir.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "pinsir",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 127
+        },
+        {
+            "id": "gyaradosite",
+            "name": "Gyaradosita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/gyaradosite.png",
+            "description": "Hace megaevolucionar a Gyarados.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "gyarados",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 130
+        },
+        {
+            "id": "aerodactylite",
+            "name": "Aerodactylita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/aerodactylite.png",
+            "description": "Hace megaevolucionar a Aerodactyl.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "aerodactyl",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 142
+        },
+        {
+            "id": "mewtwonitex",
+            "name": "Mewtwonita X",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/mewtwonitex.png",
+            "description": "Hace megaevolucionar a Mewtwo a su forma X.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "mewtwo-x",
+            "price": null,
+            "store": false,
+            "salvaje": false,
+            "mega_species": 150
+        },
+        {
+            "id": "mewtwonitey",
+            "name": "Mewtwonita Y",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/mewtwonitey.png",
+            "description": "Hace megaevolucionar a Mewtwo a su forma Y.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "mewtwo-y",
+            "price": null,
+            "store": false,
+            "salvaje": false,
+            "mega_species": 150
+        },
+        {
+            "id": "ampharosite",
+            "name": "Ampharosita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/ampharosite.png",
+            "description": "Hace megaevolucionar a Ampharos.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "ampharos",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 181
+        },
+        {
+            "id": "steelixite",
+            "name": "Steelixita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/steelixite.png",
+            "description": "Hace megaevolucionar a Steelix.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "steelix",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 208
+        },
+        {
+            "id": "scizorite",
+            "name": "Scizorita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/scizorite.png",
+            "description": "Hace megaevolucionar a Scizor.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "scizor",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 212
+        },
+        {
+            "id": "heracronite",
+            "name": "Heracrossita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/heracronite.png",
+            "description": "Hace megaevolucionar a Heracross.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "heracross",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 214
+        },
+        {
+            "id": "houndoominite",
+            "name": "Houndoomita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/houndoominite.png",
+            "description": "Hace megaevolucionar a Houndoom.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "houndoom",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 229
+        },
+        {
+            "id": "tyranitarite",
+            "name": "Tyranitarita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/tyranitarite.png",
+            "description": "Hace megaevolucionar a Tyranitar.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "tyranitar",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 248
+        },
+        {
+            "id": "sceptilite",
+            "name": "Sceptilita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/sceptilite.png",
+            "description": "Hace megaevolucionar a Sceptile.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "sceptile",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 254
+        },
+        {
+            "id": "blazikenite",
+            "name": "Blazikenita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/blazikenite.png",
+            "description": "Hace megaevolucionar a Blaziken.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "blaziken",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 257
+        },
+        {
+            "id": "swampertite",
+            "name": "Swampertita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/swampertite.png",
+            "description": "Hace megaevolucionar a Swampert.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "swampert",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 260
+        },
+        {
+            "id": "gardevoirite",
+            "name": "Gardevoirita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/gardevoirite.png",
+            "description": "Hace megaevolucionar a Gardevoir.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "gardevoir",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 282
+        },
+        {
+            "id": "sablenite",
+            "name": "Sableyita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/sablenite.png",
+            "description": "Hace megaevolucionar a Sableye.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "sableye",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 302
+        },
+        {
+            "id": "mawilite",
+            "name": "Mawilita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/mawilite.png",
+            "description": "Hace megaevolucionar a Mawile.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "mawile",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 303
+        },
+        {
+            "id": "aggronite",
+            "name": "Aggronita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/aggronite.png",
+            "description": "Hace megaevolucionar a Aggron.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "aggron",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 306
+        },
+        {
+            "id": "medichamite",
+            "name": "Medichamita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/medichamite.png",
+            "description": "Hace megaevolucionar a Medicham.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "medicham",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 308
+        },
+        {
+            "id": "manectite",
+            "name": "Manectricita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/manectite.png",
+            "description": "Hace megaevolucionar a Manectric.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "manectric",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 310
+        },
+        {
+            "id": "sharpedonite",
+            "name": "Sharpedonita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/sharpedonite.png",
+            "description": "Hace megaevolucionar a Sharpedo.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "sharpedo",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 319
+        },
+        {
+            "id": "cameruptite",
+            "name": "Cameruptita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/cameruptite.png",
+            "description": "Hace megaevolucionar a Camerupt.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "camerupt",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 323
+        },
+        {
+            "id": "altarianite",
+            "name": "Altarianita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/altarianite.png",
+            "description": "Hace megaevolucionar a Altaria.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "altaria",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 334
+        },
+        {
+            "id": "banettite",
+            "name": "Banettita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/banettite.png",
+            "description": "Hace megaevolucionar a Banette.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "banette",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 354
+        },
+        {
+            "id": "absolite",
+            "name": "Absolita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/absolite.png",
+            "description": "Hace megaevolucionar a Absol.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "absol",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 359
+        },
+        {
+            "id": "glalitite",
+            "name": "Glalita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/glalitite.png",
+            "description": "Hace megaevolucionar a Glalie.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "glalie",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 362
+        },
+        {
+            "id": "salamencite",
+            "name": "Salamencita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/salamencite.png",
+            "description": "Hace megaevolucionar a Salamence.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "salamence",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 373
+        },
+        {
+            "id": "metagrossite",
+            "name": "Metagrossita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/metagrossite.png",
+            "description": "Hace megaevolucionar a Metagross.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "metagross",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 376
+        },
+        {
+            "id": "latiasite",
+            "name": "Latiasita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/latiasite.png",
+            "description": "Hace megaevolucionar a Latias.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "latias",
+            "price": null,
+            "store": false,
+            "salvaje": false,
+            "mega_species": 380
+        },
+        {
+            "id": "latiosite",
+            "name": "Latiosita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/latiosite.png",
+            "description": "Hace megaevolucionar a Latios.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "latios",
+            "price": null,
+            "store": false,
+            "salvaje": false,
+            "mega_species": 381
+        },
+        {
+            "id": "lopunnite",
+            "name": "Lopunnita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/lopunnite.png",
+            "description": "Hace megaevolucionar a Lopunny.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "lopunny",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 428
+        },
+        {
+            "id": "garchompite",
+            "name": "Garchompita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/garchompite.png",
+            "description": "Hace megaevolucionar a Garchomp.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "garchomp",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 445
+        },
+        {
+            "id": "lucarionite",
+            "name": "Lucarita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/lucarionite.png",
+            "description": "Hace megaevolucionar a Lucario.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "lucario",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 448
+        },
+        {
+            "id": "abomasite",
+            "name": "Abomasnowita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/abomasite.png",
+            "description": "Hace megaevolucionar a Abomasnow.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "abomasnow",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 460
+        },
+        {
+            "id": "galladite",
+            "name": "Galladita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/galladite.png",
+            "description": "Hace megaevolucionar a Gallade.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "gallade",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 475
+        },
+        {
+            "id": "audinite",
+            "name": "Audinita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/audinite.png",
+            "description": "Hace megaevolucionar a Audino.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "audino",
+            "price": null,
+            "store": false,
+            "salvaje": true,
+            "mega_species": 531
+        },
+        {
+            "id": "diancite",
+            "name": "Diancita",
+            "img": "https://www.serebii.net/itemdex/sprites/pgl/diancite.png",
+            "description": "Hace megaevolucionar a Diancie.",
+            "icon": "fa-gem",
+            "effect_label": "mega",
+            "effect_value": "diancie",
+            "price": null,
+            "store": false,
+            "salvaje": false,
+            "mega_species": 719
         }
     ]
 }
