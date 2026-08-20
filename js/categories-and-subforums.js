@@ -52,19 +52,20 @@ $(document).ready(function () {
     moveChildrenAndRemoveCContent('.subforum.guides');
 });
 
-// MODERATION CATEGORY
-$(document).ready(function () {
+// STACKED CATEGORIES (c2 moderación, c5 usuarios)
+function setupStackedCategory(categorySelector, quoteClass, quoteHtml) {
     const classes = ["threads", "trades", "quests"];
-
-    const $category = $("#c2");
-
+    const $category = $(categorySelector);
     const $subforums = $category.find(".subforums");
 
-    // 1. Insertar los dos nuevos hijos
+    if (!$subforums.length) {
+        return;
+    }
+
     const illustration = $('<div class="side-illustration"></div>');
     const quote = $(`
-    <div class="quote quote--2">
-      We're standing here for no reason, and one day ${' '}<span>we'll be gone</span>${' '} for no reason.
+    <div class="quote ${quoteClass}">
+      ${quoteHtml}
       <i class="fa-solid fa-quote-left"></i>
       <i class="fa-solid fa-quote-right"></i>
     </div>
@@ -72,30 +73,26 @@ $(document).ready(function () {
 
     $subforums.prepend(quote).prepend(illustration);
 
-    // 2. Modificar cada subforum
     $subforums.find(".subforum").each(function (index) {
         const $subforum = $(this);
 
-        // Agregar la clase (threads, trades, quests)
-        $subforum.addClass(classes[index]);
+        if (classes[index]) {
+            $subforum.addClass(classes[index]);
+        }
 
-        // Eliminar subforumimg y subforumlinks
         $subforum.find(".subforumimg, .subforumlinks").remove();
 
-        // Remover imagen (conservar src) del summary y limpiar br
-        const imgSrc = $('.summary img').attr('src');
         const $summary = $subforum.find(".summary");
+        const imgSrc = $summary.find("img").attr("src");
         $summary.find("img").remove();
         const cleanSummary = $summary.html().replace(/<br\s*\/?>/gi, '').trim();
         $summary.html(cleanSummary);
 
-        // Limpiar last-thread
         const $lastThread = $subforum.find(".last-thread");
         const $lastTitle = $lastThread.find(".title");
         const titleText = $lastTitle.text().trim();
 
         if (!titleText) {
-            // Si no hay tema, mostrar mensaje
             $lastThread.find(".cinfo").html('<div class="username">No hay nada para leer acá</div>');
         } else {
             const $usernameBlock = $lastThread.find(".username");
@@ -105,16 +102,28 @@ $(document).ready(function () {
             $usernameBlock.text(finalUsername);
         }
 
-        // 3. Transformar subforumimg en illustration
         $subforum.append(`<div class="illustration" style="background: url(${imgSrc}) center center / cover;"></div>`);
 
-        // 4. Si es el segundo (trades), invertir contenido
         if (index === 1) {
             const $content = $subforum.find(".ccontent");
             const $illustration = $subforum.find(".illustration");
             $content.before($illustration);
         }
     });
+}
+
+$(document).ready(function () {
+    setupStackedCategory(
+        "#c2",
+        "quote--2",
+        `We're standing here for no reason, and one day ${' '}<span>we'll be gone</span>${' '} for no reason.`
+    );
+
+    setupStackedCategory(
+        "#c5",
+        "quote--5",
+        `Everyone has their own ${' '}<span>way of living</span>${' '} that they're struggling to find.`
+    );
 });
 
 // CATEGORIES HEADERS
@@ -126,10 +135,11 @@ $(document).ready(function () {
         $(this).find(".number").first().text(formattedIndex);
     });
 
-    // Descriptions
+    // Descriptions — orden de aparición en el índice: c1, c2, c5, c3, c4
     const descriptions = [
         `<div class="description"><div class="line"></div>I don't remember all of them <span>word to word</span> but they still <span>stand out</span> to me.</div>`,
         `<div class="description"><div class="line"></div>For your insolence, <span>you shall</span> feel a <span>world of pain!</span></div>`,
+        `<div class="description"><div class="line"></div>Every face here has a <span>story</span> still being <span>written</span>.</div>`,
         `<div class="description"><div class="line"></div>Change your perspective and the <span>reality</span> <span>changes!</span></div>`,
         `<div class="description"><div class="line"></div>The <span>void</span> is so... <span>cold</span></div>`,
     ];
@@ -143,13 +153,15 @@ $(document).ready(function () {
 
 // SUBFORUM IMAGES
 $(document).ready(function () {
+    const customLayoutCategories = new Set(["c1", "c2", "c5"]);
+
     $('.subforum').each(function () {
         const $subform = $(this);
 
         const $validParent = $subform.closest('div[id^="c"]').filter(function () {
             const id = $(this).attr('id');
             const match = id.match(/^c(\d+)$/);
-            return match && parseInt(match[1], 10) >= 3;
+            return match && !customLayoutCategories.has(id);
         });
 
         if ($validParent.length) {
