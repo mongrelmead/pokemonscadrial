@@ -126,13 +126,42 @@ $(document).ready(function () {
     );
 });
 
+function isViewforumCategory($category) {
+    const id = $category.attr("id") || "";
+    return /^f\d+$/.test(id);
+}
+
+// VIEWFORUM SUBFORUMS (BOARD_INDEX inside viewforum_body)
+$(document).ready(function () {
+    $(".category").each(function () {
+        const $category = $(this);
+
+        if (!isViewforumCategory($category)) {
+            return;
+        }
+
+        $category.addClass("viewforum-subs");
+        $category.find(".subforumlinks").remove();
+    });
+});
+
 // CATEGORIES HEADERS
 $(document).ready(function () {
-    // Count
-    $(".category").each(function (index) {
-        let readableIdx = index + 1;
-        const formattedIndex = index < 10 ? `0${readableIdx}` : `${readableIdx}`;
-        $(this).find(".number").first().text(formattedIndex);
+    let categoryNumber = 0;
+
+    $(".category").each(function () {
+        const $category = $(this);
+
+        if (isViewforumCategory($category) || $category.hasClass("viewforum-subs")) {
+            return;
+        }
+
+        categoryNumber += 1;
+        let formattedIndex = `${categoryNumber}`;
+        if (categoryNumber < 10) {
+            formattedIndex = `0${categoryNumber}`;
+        }
+        $category.find(".number").first().text(formattedIndex);
     });
 
     // Descriptions — orden de aparición en el índice: c1, c2, c5, c3, c4
@@ -144,9 +173,18 @@ $(document).ready(function () {
         `<div class="description"><div class="line"></div>The <span>void</span> is so... <span>cold</span></div>`,
     ];
 
-    $(".description").each(function (index) {
-        if (index < descriptions.length) {
-            $(this).replaceWith(descriptions[index]);
+    let descriptionIndex = 0;
+
+    $(".description").each(function () {
+        const $description = $(this);
+
+        if ($description.closest(".category.viewforum-subs").length) {
+            return;
+        }
+
+        if (descriptionIndex < descriptions.length) {
+            $description.replaceWith(descriptions[descriptionIndex]);
+            descriptionIndex += 1;
         }
     });
 });
@@ -157,25 +195,38 @@ $(document).ready(function () {
 
     $('.subforum').each(function () {
         const $subform = $(this);
+        const $parent = $subform.closest(".category");
 
-        const $validParent = $subform.closest('div[id^="c"]').filter(function () {
-            const id = $(this).attr('id');
-            const match = id.match(/^c(\d+)$/);
-            return match && !customLayoutCategories.has(id);
-        });
+        if (!$parent.length) {
+            return;
+        }
 
-        if ($validParent.length) {
-            const $summaryImg = $subform.find('.summary img').first();
+        const id = $parent.attr("id") || "";
+        const isViewforum = $parent.hasClass("viewforum-subs") || isViewforumCategory($parent);
+        const isIndexNationStyle = /^c\d+$/.test(id) && !customLayoutCategories.has(id);
 
-            if ($summaryImg.length) {
-                const imgSrc = $summaryImg.attr('src');
-                const $subforumimg = $subform.find('.subforumimg').first();
+        if (!isViewforum && !isIndexNationStyle) {
+            return;
+        }
 
-                if ($subforumimg.length) {
-                    $subforumimg.css('background', `url(${imgSrc}) center center / cover`);
-                }
+        const $summaryImg = $subform.find(".summary img").first();
+        const $subforumimg = $subform.find(".subforumimg").first();
+        const imgSrc = $summaryImg.attr("src");
 
-                $summaryImg.remove();
+        if ($summaryImg.length && imgSrc) {
+            if ($subforumimg.length) {
+                $subforumimg.css("background", `url(${imgSrc}) center center / cover`);
+            }
+
+            $summaryImg.remove();
+        }
+
+        if (isViewforum) {
+            const backgroundImage = $subforumimg.css("background-image") || "";
+            const hasImage = backgroundImage !== "" && backgroundImage !== "none";
+
+            if (!hasImage) {
+                $subform.addClass("no-image");
             }
         }
     });
@@ -186,15 +237,17 @@ $(document).ready(function () {
     $(".last-thread").each(function () {
         const $lastThread = $(this);
 
+        if ($lastThread.closest("#c2, #c5").length) {
+            return;
+        }
+
         const $titleLink = $lastThread.find(".cinfo .title");
         const $usernameContainer = $lastThread.find(".cinfo .username");
         const $mainIcon = $lastThread.find(".icon i[data-icon]").first();
         const dataIcon = $mainIcon.attr("data-icon") || "";
-
-        const hasValidTitle =
-            $titleLink.length &&
-            $titleLink.attr("href") &&
-            $titleLink.attr("href").trim() !== "";
+        const href = ($titleLink.attr("href") || "").trim();
+        const title = $titleLink.text().trim();
+        const hasValidTitle = $titleLink.length && href !== "" && title !== "";
 
         let newHtml = `
         <div class="icon icon-pencil">
@@ -204,25 +257,22 @@ $(document).ready(function () {
       `;
 
         if (hasValidTitle) {
-            const link = $titleLink.attr("href");
-            const title = $titleLink.text().trim();
-
-            // Obtener el texto antes del primer <br> (fecha y hora)
-            const rawHtml = $usernameContainer.html();
-            const splitHtml = rawHtml.split("<br")[0].trim(); // Hasta el primer <br
-            const preText = $("<div>").html(splitHtml).text().trim(); // Decodificar si hay entidades
-
-            // Obtener el texto del primer <strong> (usuario)
+            const rawHtml = $usernameContainer.html() || "";
+            const splitHtml = rawHtml.split("<br")[0].trim();
+            const preText = $("<div>").html(splitHtml).text().trim();
             const strongText = $usernameContainer
                 .find("strong")
                 .first()
                 .text()
                 .trim();
 
-            const finalUsername = `${preText}${' '} por ${strongText}`;
+            let finalUsername = strongText;
+            if (preText) {
+                finalUsername = `${preText} por ${strongText}`;
+            }
 
             newHtml += `
-          <a href="${link}" class="title">${title}</a>
+          <a href="${href}" class="title">${title}</a>
           <div class="username">${finalUsername}</div>
         `;
         } else {
@@ -269,6 +319,12 @@ const subforumLinksIconMap = {
 $(document).ready(function () {
     $('.subforumlinks').each(function () {
         const $container = $(this);
+
+        if ($container.closest(".category.viewforum-subs").length) {
+            $container.remove();
+            return;
+        }
+
         const newContent = [];
 
         $container.find('a').each(function () {
