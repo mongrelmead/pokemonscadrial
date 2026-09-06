@@ -1,12 +1,9 @@
-// GROUPS PAGE (Grupos de Usuarios)
 $(document).ready(function () {
   var $groupList = $(".group_list.noList");
 
   if (!$groupList.length) {
     return;
   }
-
-  $("#main-content > p").remove();
 
   $("#main-content").addClass("groups-page");
 
@@ -15,9 +12,9 @@ $(document).ready(function () {
 
   var $header = $(
     '<div class="header">' +
-      '<div class="greet"><div class="line"></div>Vista de</div>' +
-      '<div class="title">' + titleText + "</div>" +
-      "</div>"
+    '<div class="greet"><div class="line"></div>Vista de</div>' +
+    '<div class="title">' + titleText + "</div>" +
+    "</div>"
   );
 
   $pageTitle.replaceWith($header);
