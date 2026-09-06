@@ -21,4 +21,8 @@ $(document).ready(function () {
   $pageTitle.replaceWith($header);
 
   $("#main-content.groups-page .panel .corners-top, #main-content.groups-page .panel .corners-bottom").remove();
+
+  $("#main-content.groups-page .panel").wrapAll(
+    '<div class="itemsdisplayouter"><div class="itemsdisplaygradient"><div class="itemsdisplaycontainer"></div></div></div>'
+  );
 });
