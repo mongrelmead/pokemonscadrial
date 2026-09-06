@@ -6,6 +6,8 @@ $(document).ready(function () {
     return;
   }
 
+  $("#main-content > p").remove();
+
   $("#main-content").addClass("groups-page");
 
   var $pageTitle = $("#main-content > h1.page-title").first();
@@ -25,4 +27,6 @@ $(document).ready(function () {
   $("#main-content.groups-page .panel").wrapAll(
     '<div class="itemsdisplayouter"><div class="itemsdisplaygradient"><div class="itemsdisplaycontainer"></div></div></div>'
   );
+
+  $("#main-content.groups-page dt").remove();
 });
